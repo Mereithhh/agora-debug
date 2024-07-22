@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
+	"time"
 
 	agora "github.com/Mereithhh/agora-go-sdk"
 )
@@ -92,13 +93,12 @@ func main() {
 	for {
 		ttsFrame, ok := <-ttsDataChannel
 		if !ok {
-			fmt.Println("TTS data channel closed")
-			senderContext.Close()
+			fmt.Println("TTS data channel closed, all data received.")
 			break
 		}
 		senderContext.SendPcmData(ttsFrame.data)
 	}
-
+	time.Sleep(time.Second * 151)
 	senderContext.Sender.Stop()
 	conn.Disconnect()
 	conn.Release()
