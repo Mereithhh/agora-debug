@@ -21,11 +21,6 @@ go run .
 ```
 
 ## 一个 case
-<audio controls>
-  <source src="case/1.wav" type="audio/wave">
-Your browser does not support the audio element.
-</audio>
-
 场外录音，见 `case/1.wav`，在第 8 秒左右，可以听到咔的一声。
 
 声网日志，见 `case/1agora.log`，没发现 no enough 的日志。
