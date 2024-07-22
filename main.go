@@ -72,6 +72,11 @@ func NewConnection() (*agora.RtcConnection, error) {
 		},
 	}
 	con := agora.NewConnection(&conCfg)
+	nearindump := "{\"che.audio.frame_dump\":{\"location\":\"all\",\"action\":\"start\",\"max_size_bytes\":\"120000000\",\"uuid\":\"123456789\",\"duration\":\"1200000\"}}"
+	setResult := con.SetParameters(nearindump)
+	if setResult != 0 {
+		return nil, fmt.Errorf("SetParameters failed: %d", setResult)
+	}
 	result := con.Connect(token, channel, uid)
 	if result != 0 {
 		return nil, fmt.Errorf("Connect failed: %d", result)
