@@ -1,0 +1,1120 @@
+[07/22/24 04:33:27:057][377296][A]:(00000007): AgoraService::createRtcConnection(this:0x7f6e80015850, cfg:(autoSubscribeAudio:1, autoSubscribeVideo:0, enableAudioRecordingOrPlayout:0,maxSendBitrate:0, minPort:0, maxPort:0, clientRoleType:1), connId:0)
+[07/22/24 04:33:27:057][377296][A]:(00000008):   RtcConnectionImpl::initializeEx(this:0x1c1d0c0, serviceCfg:(enableAudioProcessor:1, enableAudioDevice:0, enableVideo:1, context:(nil)), cfg:(autoSubscribeAudio:1, autoSubscribeVideo:0, enableAudioRecordingOrPlayout:0, maxSendBitrate:0, minPort:0, maxPort:0, clientRoleType:2, clientType:0, channelProfile:1, vosList.size:0, recvType:(audio: 0, video: 0)))
+[07/22/24 04:33:27:058][377304][I]:create dangling client connection 0x7f6e800fa960
+[07/22/24 04:33:27:058][377304][I]:[remote:3.******.78:8443] start 0th connect, send client hello 7377762|syn, early data: 0, tags: SNI :332d302d3136...(24), PDMD:, CPTO:4e4f4e432000...(129), CID: 17206454205448979097
+[07/22/24 04:33:27:058][377304][I]:create dangling client connection 0x7f6e800fb250
+[07/22/24 04:33:27:058][377304][I]:[remote:52.******.170:8443] start 0th connect, send client hello 6665666|syn, early data: 0, tags: SNI :35322d35322d...(26), PDMD:, CPTO:4e4f4e432000...(129), CID: 8413743206566819649
+[07/22/24 04:33:27:058][377304][I]:create dangling client connection 0x7f6e800ca2c0
+[07/22/24 04:33:27:058][377304][I]:[remote:35.******.187:8443] start 0th connect, send client hello 5481155|syn, early data: 0, tags: SNI :33352d313738...(28), PDMD:, CPTO:4e4f4e432000...(129), CID: 7451410250877350028
+[07/22/24 04:33:27:059][377304][I]:create dangling client connection 0x7f6e800cb440
+[07/22/24 04:33:27:059][377304][I]:[remote:3.******.78:8443] start 0th connect, send client hello 16691252|syn, early data: 0, tags: SNI :332d302d3136...(24), PDMD:, CPTO:4e4f4e432000...(129), CID: 9139240767024773171
+[07/22/24 04:33:27:059][377304][I]:[afm] type: 1, patient time: 2000, never backwards: false
+[07/22/24 04:33:27:059][377304][I]:[ap-base] initialize ap list
+[07/22/24 04:33:27:059][377304][I]:[ap-base] append predefined ip: 101.******.165, 18.******.64, 52.******.111, 52.******.238, 168.******.216, 20.******.143, 15.******.208, 18.******.59, 54.******.11, 123.******.221, 13.******.184, 184.******.217, 3.******.239, 3.******.108, 3.******.253, 18.******.254, 54.******.178, 
+[07/22/24 04:33:27:059][377304][I]:[ap-base] append predefined ip: 3.******.78, 52.******.170, 35.******.187, 54.******.72, 15.******.129, 13.******.137, 23.******.152, 112.******.46, 52.******.59, 50.******.121, 52.******.244, 13.******.196, 13.******.235, 199.******.132, 118.******.38, 47.******.93, 106.******.130, 2406:******:59, 2600:******:121, 
+[07/22/24 04:33:27:059][377304][I]:[ap-base] append predefined ip: 3.******.78, 52.******.170, 35.******.187, 54.******.72, 15.******.129, 13.******.137, 23.******.152, 112.******.46, 52.******.59, 50.******.121, 52.******.244, 13.******.196, 13.******.235, 199.******.132, 118.******.38, 47.******.93, 106.******.130, 2406:******:59, 2600:******:121, 
+[07/22/24 04:33:27:059][377304][I]:[ap-base] queryDns ap-tds-tls.agora.io
+[07/22/24 04:33:27:059][377304][I]:[CM]: dns not match in cache, domain is ap-tds-tls.agora.io
+[07/22/24 04:33:27:059][377304][I]:[ap-base] queryDns ap1-tds.agora.io
+[07/22/24 04:33:27:059][377304][I]:[CM]: dns not match in cache, domain is ap1-tds.agora.io
+[07/22/24 04:33:27:059][377304][I]:[ap-base] initialize ap list
+[07/22/24 04:33:27:059][377304][I]:[ap-base] append predefined ip: 101.******.165, 18.******.64, 52.******.111, 52.******.238, 168.******.216, 20.******.143, 15.******.208, 18.******.59, 54.******.11, 123.******.221, 13.******.184, 184.******.217, 3.******.239, 3.******.108, 3.******.253, 18.******.254, 54.******.178, 
+[07/22/24 04:33:27:060][377304][I]:[ap-base] append predefined ip: 3.******.78, 52.******.170, 35.******.187, 54.******.72, 15.******.129, 13.******.137, 23.******.152, 112.******.46, 52.******.59, 50.******.121, 52.******.244, 13.******.196, 13.******.235, 199.******.132, 118.******.38, 47.******.93, 106.******.130, 2406:******:59, 2600:******:121, 
+[07/22/24 04:33:27:060][377304][I]:[ap-base] append predefined ip: 3.******.78, 52.******.170, 35.******.187, 54.******.72, 15.******.129, 13.******.137, 23.******.152, 112.******.46, 52.******.59, 50.******.121, 52.******.244, 13.******.196, 13.******.235, 199.******.132, 118.******.38, 47.******.93, 106.******.130, 2406:******:59, 2600:******:121, 
+[07/22/24 04:33:27:060][377304][I]:[ap-base] queryDns ap2-tls.agora.io
+[07/22/24 04:33:27:060][377304][I]:[CM]: dns not match in cache, domain is ap2-tls.agora.io
+[07/22/24 04:33:27:060][377304][I]:[ap-base] queryDns ap3.agora.io
+[07/22/24 04:33:27:060][377304][I]:[CM]: dns not match in cache, domain is ap3.agora.io
+[07/22/24 04:33:27:060][377304][I]:[ap-5] client: StopRequest
+[07/22/24 04:33:27:060][377304][I]:destroy session builder 0x7f6e8008b440
+[07/22/24 04:33:27:060][377304][I]:destroy dangling client connection 0x7f6e800cb440
+[07/22/24 04:33:27:060][377304][I]:[ap-base] initialize ap list
+[07/22/24 04:33:27:060][377304][I]:[ap-base] append predefined ip: 101.******.165, 18.******.64, 52.******.111, 52.******.238, 168.******.216, 20.******.143, 15.******.208, 18.******.59, 54.******.11, 123.******.221, 13.******.184, 184.******.217, 3.******.239, 3.******.108, 3.******.253, 18.******.254, 54.******.178, 
+[07/22/24 04:33:27:060][377304][I]:[ap-base] append predefined ip: 3.******.78, 52.******.170, 35.******.187, 54.******.72, 15.******.129, 13.******.137, 23.******.152, 112.******.46, 52.******.59, 50.******.121, 52.******.244, 13.******.196, 13.******.235, 199.******.132, 118.******.38, 47.******.93, 106.******.130, 2406:******:59, 2600:******:121, 
+[07/22/24 04:33:27:060][377304][I]:[ap-base] append predefined ip: 3.******.78, 52.******.170, 35.******.187, 54.******.72, 15.******.129, 13.******.137, 23.******.152, 112.******.46, 52.******.59, 50.******.121, 52.******.244, 13.******.196, 13.******.235, 199.******.132, 118.******.38, 47.******.93, 106.******.130, 2406:******:59, 2600:******:121, 
+[07/22/24 04:33:27:060][377304][I]:[ap-base] queryDns ap2-tls.agora.io
+[07/22/24 04:33:27:060][377304][I]:[CM]: dns not match in cache, domain is ap2-tls.agora.io
+[07/22/24 04:33:27:060][377304][I]:[ap-base] queryDns ap3.agora.io
+[07/22/24 04:33:27:060][377304][I]:[CM]: dns not match in cache, domain is ap3.agora.io
+[07/22/24 04:33:27:060][377304][I]:[ap-5] client: SendRequest
+[07/22/24 04:33:27:060][377304][I]:create session builder 0x7f6e8008b440
+[07/22/24 04:33:27:060][377304][I]:[ap-5] send message to: 3.******.78:8443, with opid: 791660834, transport type = 5, send ts = 1721622807060
+[07/22/24 04:33:27:060][377304][I]:connecting to 101.******.165:8443 handle 0x7f6e800cb3e0, 125
+[07/22/24 04:33:27:060][377304][I]:[ap-5] connect to: 101.******.165:8443, with opid: 791660835, transport type = 1, send ts = 1721622807060
+[07/22/24 04:33:27:060][377304][I]:[ap-5] client: DoProcess, now: 1721622807060, retry times: 0
+[07/22/24 04:33:27:060][377304][I]:[rlbs] Send AP Request, service_id = 5
+[07/22/24 04:33:27:060][377304][I]:this: 0x1c1d0c0, [CON]: initialize cc type 3
+[07/22/24 04:33:27:061][377304][I]:on set parameters doc='{"che.audio.enabled":true}', ret=-11
+[07/22/24 04:33:27:061][377304][I]:[CALLCTX]: API call to enable video
+[07/22/24 04:33:27:061][377304][I]:on set parameters doc='{"rtc.video.enabled":true}', ret=0
+[07/22/24 04:33:27:061][377304][I]:on set parameters doc='{"rtc.channel_profile":1}', ret=0
+[07/22/24 04:33:27:061][377304][I]:[CALLCTX]: set uid:0 client role to broadcaster
+[07/22/24 04:33:27:061][377304][A]:(00000009): LegacyEventProxy::onClientRoleChanged->onChangeRoleSuccess(this:0x1c1c550, oldRole:2, newRole:1)
+[07/22/24 04:33:27:061][377304][I]:on set parameters doc='{"rtc.client_role":1}', ret=0
+[07/22/24 04:33:27:061][377304][I]:this: 0x1c1d0c0, [CON]: adjust remote ssrc : true
+[07/22/24 04:33:27:061][377304][I]:this: 0x1c1d0c0, [CON]: No TDS value found for rtc audio.rsfec
+[07/22/24 04:33:27:061][377304][I]:on set parameters doc='{"che.audio.mute_peers":false}', ret=0
+[07/22/24 04:33:27:061][377304][I]:on set parameters doc='{"che.audio.paused":false}', ret=-11
+[07/22/24 04:33:27:061][377304][I]:on set parameters doc='{"rtc.video.mute_peers":true}', ret=0
+[07/22/24 04:33:27:061][377304][I]:this: 0x1c1d0c0, [CON]: No TDS value found for rtc iptos
+[07/22/24 04:33:27:061][377304][I]:agora::rtc::AudioDeviceEventManager::AudioDeviceEventManager(agora_refptr<webrtc::AudioDeviceModule>): adem ctor 
+[07/22/24 04:33:27:061][377304][I]:[RsmpStc]: ResampleStatistic::ctor 0x7f6e8008d380
+[07/22/24 04:33:27:061][377304][I]:[RsmpStc]: ResampleStatistic::ctor 0x7f6e801a5780
+[07/22/24 04:33:27:061][377304][I]:[ATWT]: set enable need more play data, id: real_adm_audio_transport_wrapper_tee, enable: 1 
+[07/22/24 04:33:27:061][377304][I]:[ATWT]: set enable need more play data, id: fake_adm_audio_transport_wrapper_tee, enable: 0 
+[07/22/24 04:33:27:061][377304][I]:fixed_gain_controller.cc:57 - Gain to apply: 0 db.
+[07/22/24 04:33:27:061][377304][I]:[AFC]: AudioFilterCompositeWithExtension name:remote_mixed_playback, extensionTypeSet size:1
+[07/22/24 04:33:27:061][377304][I]:[AFC]: create extension audio filters, extensionTypeSet size:1
+[07/22/24 04:33:27:061][377304][I]:[AFC]: create extension audio filter, extension type:10006 extension_list size:1
+[07/22/24 04:33:27:061][377304][I]:[AFC]: create extension audio filter, extension type:10006 internal_id:agora.builtin%%headphone_equalizer_io_agora_builtin_remote_mixed_playback filter:headphone_equalizer_io_agora_builtin_remote_mixed_playback auto_enable:0
+[07/22/24 04:33:27:061][377304][I]:[AFC]: add extension audio filter:headphone_equalizer_io_agora_builtin_remote_mixed_playback to filter composite:remote_mixed_playback
+[07/22/24 04:33:27:061][377304][A]:(00000010): IAudioFilterComposite::addAudioFilter(this:0x7f6e801028b0, filter: 0x7f6e8008d1d0)
+[07/22/24 04:33:27:061][377304][I]:WebrtcAudioEngine: CreateTxMixer
+[07/22/24 04:33:27:061][377304][I]:audio_processing_impl.cc:331 - AudioProcessingImpl::ctor(0x7F6E800D72F0)
+[07/22/24 04:33:27:061][377304][I]:echo_cancellation_impl.cc:204 - EchoCancellationImpl::ctor(0x7F6E800DD7B0)
+[07/22/24 04:33:27:061][377304][I]:ains not supports on current arch
+[07/22/24 04:33:27:061][377304][I]:ains not supports on current arch
+[07/22/24 04:33:27:061][377304][I]:NSNG: strategy 0, enhai 1.000000, enhsta 2.000000, stabound 0.050000, gainboost 2.000000, finalmask 0.030000
+[07/22/24 04:33:27:061][377304][I]:NSNG: strategy 0, enhai 1.000000, enhsta 2.000000, stabound 0.050000, gainboost 2.000000, finalmask 0.030000
+[07/22/24 04:33:27:061][377304][I]:audio_processing_impl.cc:360 - Capture post processor activated: 0
+Render pre processor activated: 0
+[07/22/24 04:33:27:062][377304][I]:ains not supports on current arch
+[07/22/24 04:33:27:062][377304][I]:NSNG: strategy 0, enhai 1.000000, enhsta 2.000000, stabound 0.050000, gainboost 2.000000, finalmask 0.030000
+[07/22/24 04:33:27:062][377304][I]:[APM] [ED CONFIG] howlingActivaty = 1
+[07/22/24 04:33:27:062][377304][I]:[APM] [ED CONFIG] howlingLife = -1
+[07/22/24 04:33:27:062][377304][I]:[APM] [ED CONFIG] howlingSuppression = 1
+[07/22/24 04:33:27:062][377304][I]:[APM] [ED CONFIG] howlingBound = 10
+[07/22/24 04:33:27:062][377304][I]:[APM] [ED CONFIG] howlingTrustfactor = 3
+[07/22/24 04:33:27:062][377304][I]:audio_processing_impl.cc:331 - AudioProcessingImpl::ctor(0x7F6E80257740)
+[07/22/24 04:33:27:062][377304][I]:echo_cancellation_impl.cc:204 - EchoCancellationImpl::ctor(0x7F6E8027D610)
+[07/22/24 04:33:27:062][377304][I]:ains not supports on current arch
+[07/22/24 04:33:27:062][377304][I]:ains not supports on current arch
+[07/22/24 04:33:27:062][377304][I]:NSNG: strategy 0, enhai 1.000000, enhsta 2.000000, stabound 0.050000, gainboost 2.000000, finalmask 0.030000
+[07/22/24 04:33:27:062][377304][I]:NSNG: strategy 0, enhai 1.000000, enhsta 2.000000, stabound 0.050000, gainboost 2.000000, finalmask 0.030000
+[07/22/24 04:33:27:062][377304][I]:audio_processing_impl.cc:360 - Capture post processor activated: 0
+Render pre processor activated: 0
+[07/22/24 04:33:27:062][377304][I]:ains not supports on current arch
+[07/22/24 04:33:27:062][377304][I]:NSNG: strategy 0, enhai 1.000000, enhsta 2.000000, stabound 0.050000, gainboost 2.000000, finalmask 0.030000
+[07/22/24 04:33:27:062][377304][I]:[APM] [ED CONFIG] howlingActivaty = 1
+[07/22/24 04:33:27:062][377304][I]:[APM] [ED CONFIG] howlingLife = -1
+[07/22/24 04:33:27:062][377304][I]:[APM] [ED CONFIG] howlingSuppression = 1
+[07/22/24 04:33:27:062][377304][I]:[APM] [ED CONFIG] howlingBound = 10
+[07/22/24 04:33:27:062][377304][I]:[APM] [ED CONFIG] howlingTrustfactor = 3
+[07/22/24 04:33:27:062][377304][A]:(00000011): IAudioFilterComposite::addAudioFilter(this:0x7f6e8006b560, filter: 0x7f6e801028b0)
+[07/22/24 04:33:27:062][377304][I]:(audio_transport_impl.cc:167): SetPlaybackDataExtraProcessing processing = 0x7f6e80100fb8.
+[07/22/24 04:33:27:062][377304][I]:(audio_transport_impl.cc:159): SetRecordedDataExtraProcessing processing = 0x7f6e80102ba8.
+[07/22/24 04:33:27:062][377304][I]:(audio_transport_impl.cc:174): SetRecordedDataExtraProcessingEnable enable = 1.
+[07/22/24 04:33:27:062][377304][I]:(audio_transport_impl.cc:256): SetRecordingResampleRecorder recorder = 0x7f6e800d31b0.
+[07/22/24 04:33:27:062][377304][I]:audio options factoryname ==chorus: vector===6
+[07/22/24 04:33:27:062][377304][I]:audio options factoryname ==chorus: vector===6
+[07/22/24 04:33:27:062][377304][I]:audio options factoryname ==chorus: vector===6
+[07/22/24 04:33:27:062][377304][A]:(00000012): RtcConnectionImpl::getUserRole(this:0x1c1d0c0, void)
+[07/22/24 04:33:27:063][377304][I]:(cpu_info.cc:46): Available number of cores: 16
+[07/22/24 04:33:27:063][377304][I]:this: 0x1c1d0c0, [CON]: no TDS value found for enable_webrtc_pacer. set pacer to true
+[07/22/24 04:33:27:063][377304][I]:[CON]: delta frame scalable set to true
+[07/22/24 04:33:27:063][377304][I]:[VSM]: user parameter enable_hw_decoder : 
+[07/22/24 04:33:27:063][377304][I]:[VSM]: user parameter hardware_decoding : -1
+[07/22/24 04:33:27:063][377304][I]:[VSM]: user parameter value found for enable_video_freeze_diagnose : true
+[07/22/24 04:33:27:063][377304][I]:[VSM]: user parameter value found for retrans_detect_enable : false
+[07/22/24 04:33:27:063][377304][I]:[VSM]: user parameter value found for use_sent_ts_enable : true
+[07/22/24 04:33:27:063][377304][I]:[VSM]: no TDS value found for switch_soft_decoder_threshold
+[07/22/24 04:33:27:063][377304][I]:[VSM]: no TDS value found for enable_parser_reject
+[07/22/24 04:33:27:063][377304][I]:[VSM]: no TDS value found for enable_hw_decoder
+[07/22/24 04:33:27:063][377304][I]:[VSM]: no TDS value found for enable_background_hw_decode
+[07/22/24 04:33:27:063][377304][I]:[VSM]: no TDS value found for che.hardware_decoding
+[07/22/24 04:33:27:063][377304][I]:[VSM]: no TDS value found for tds_retrans_detect_enable
+[07/22/24 04:33:27:063][377304][I]:[VSM]: no TDS value found for tds_use_sent_ts_enable
+[07/22/24 04:33:27:063][377304][I]:[VSM]: user parameter value found for packet_buffer_size : 2048
+[07/22/24 04:33:27:063][377304][I]:[VSM]: no TDS value found for packet_buffer_size
+[07/22/24 04:33:27:063][377304][I]:[VSM]: user parameter value found for enable_vpr : true
+[07/22/24 04:33:27:063][377304][I]:[VSM]: user parameter value found for che.video.vpr.init_size : 1
+[07/22/24 04:33:27:063][377304][I]:[VSM]: user parameter value found for che.video.vpr.max_size : 3
+[07/22/24 04:33:27:063][377304][I]:[VSM]: user parameter value found for che.video.vpr.frozen_ms_thres : 200
+[07/22/24 04:33:27:063][377304][I]:[VSM]: user parameter value found for che.video.vpr.frozen_rate_thres : 5
+[07/22/24 04:33:27:063][377304][I]:[VSM]: user parameter value found for che.video.vpr.method : 0
+[07/22/24 04:33:27:063][377304][I]:[VSM]: user parameter value found for che.video.vpr.vpr_adaptive_thres : 50
+[07/22/24 04:33:27:063][377304][W]:[ASM]: AudioStreamManager::ctor(0x7f6e80266480)
+[07/22/24 04:33:27:063][377304][I]:[APT]: name:observer_playout_source AudioNodeMixerSource::ctor(0x7f6e8003d3f0)
+[07/22/24 04:33:27:063][377304][I]:[APT]: name:observer_recording_source AudioNodeMixerSource::ctor(0x7f6e80266bf0)
+[07/22/24 04:33:27:063][377318][I]:[ANMSS]: Add audio source 0x7f6e8003d3f8, number of sources 1
+[07/22/24 04:33:27:063][377318][I]:[ANMSS]: Add audio source 0x7f6e80266bf8, number of sources 2
+[07/22/24 04:33:27:063][377304][A]:(00000013): RtcConnectionImpl::subscribeReceivePacketHandler(this:0x1c1d0c0, void)
+[07/22/24 04:33:27:063][377320][I]:[BW]: BaseWorker (AgDebugThread) started: 0x7f6e80269720
+[07/22/24 04:33:27:063][377304][I]:this: 0x1c1d0c0, [CON]: uid:4294967295 set channel profile 1
+[07/22/24 04:33:27:063][377304][I]:[RS]: dns parse result code: 0, servers size: 8
+[07/22/24 04:33:27:063][377304][I]:[rs] updateServers 115.******.229:8130, priority 2
+[07/22/24 04:33:27:063][377304][I]:[rs] updateServers 36.******.37:8130, priority 2
+[07/22/24 04:33:27:063][377304][I]:[rs] updateServers 58.******.200:8130, priority 2
+[07/22/24 04:33:27:063][377304][I]:[rs] updateServers 36.******.36:8130, priority 2
+[07/22/24 04:33:27:063][377304][I]:[rs] updateServers 58.******.204:8130, priority 2
+[07/22/24 04:33:27:063][377304][I]:[rs] updateServers 119.******.156:8130, priority 2
+[07/22/24 04:33:27:063][377304][I]:[rs] updateServers 119.******.134:8130, priority 2
+[07/22/24 04:33:27:063][377304][I]:[rs] updateServers 119.******.141:8130, priority 2
+[07/22/24 04:33:27:063][377304][I]:create session builder 0x7f6e80234200
+[07/22/24 04:33:27:064][377304][I]:[CM]: succeeded to flush to Cache File Manager in DnsCacheDocument::Pack(), elapsed 0
+[07/22/24 04:33:27:064][377296][A]:(00000014): RtcConnectionImpl::registerObserver(this:0x1c1d0c0, observer:0x1bfb140)
+[07/22/24 04:33:27:064][377296][A]:(00000015): LocalUserImpl::registerLocalUserObserver(this:0x7f6e801a5210, observer:0x1bfb270)
+[07/22/24 04:33:27:064][377296][A]:(00000016): RtcConnectionImpl::registerNetworkObserver(this:0x1c1d0c0, observer:0x7f6eeb96a050)
+[07/22/24 04:33:27:064][377304][I]:create dangling client connection 0x7f6e80239fa0
+[07/22/24 04:33:27:064][377304][I]:[remote:3.******.78:8443] start 0th connect, send client hello 6176774|syn, early data: 0, tags: SNI :332d302d3136...(24), PDMD:, CPTO:4e4f4e432000...(129), CID: 10419832436082465618
+[07/22/24 04:33:27:064][377304][I]:create dangling client connection 0x7f6e8023a620
+[07/22/24 04:33:27:064][377304][I]:[remote:115.******.229:8130] start 0th connect, send client hello 6746225|syn, early data: 0, tags: SNI :3131352d3233...(29), NELD:, PDMD:, CPTO:4e4f4e432000...(129), CID: 14741151681157336840
+[07/22/24 04:33:27:064][377296][A]:(00000017): LocalUserImpl::setPlaybackAudioFrameBeforeMixingParameters(this:0x7f6e801a5210, numberOfChannels:1, sampleRateHz:16000)
+[07/22/24 04:33:27:064][377304][I]:[AFO]: Set playback audio frame before mixing parameters for 0x7f6e800e52b0, bytesPerSample 2, numberOfChannels 1, sampleRateHz 16000
+[07/22/24 04:33:27:064][377304][I]:(audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[07/22/24 04:33:27:064][377304][I]:(audio_device_buffer.cc:230): SetPlayoutSampleRate(16000)
+[07/22/24 04:33:27:064][377304][I]:(audio_device_buffer.cc:272): SetPlayoutChannels(1)
+[07/22/24 04:33:27:065][377304][I]:(audio_device_buffer.cc:96): RegisterAudioCallback
+[07/22/24 04:33:27:065][377304][I]:(audio_device_buffer.cc:128): StartPlayout
+[07/22/24 04:33:27:065][377296][A]:(00000018): LocalUserImpl::registerAudioFrameObserver(this:0x7f6e801a5210, observer:0x1bf9300)
+[07/22/24 04:33:27:065][377304][I]:[ASM]: Register audio frame observer completed.
+[07/22/24 04:33:27:065][377296][A]:(00000019): RtcConnectionImpl::connect(this:0x1c1d0c0, token:"0****=", channelId:"1110", userId:"110")
+[07/22/24 04:33:27:065][377304][I]:this: 0x1c1d0c0, [CON]: no TDS value found for enable_webrtc_pacer. set pacer to true
+[07/22/24 04:33:27:065][377304][I]:(alr_experiment.cc:65): Using ALR experiment settings: pacing factor: 1, max pacer queue length: 2875, ALR start bandwidth usage percent: 80, ALR end budget level percent: 40, ALR end budget level percent: -60, ALR experiment group ID: 3
+[07/22/24 04:33:27:065][377304][I]:(bitrate_prober.cc:64): Bandwidth probing enabled, set to inactive
+[07/22/24 04:33:27:065][377304][I]:(paced_sender.cc:388): ProcessThreadAttached 0x0x7f6e80239630
+[07/22/24 04:33:27:065][377304][I]:[PACER] SetPacingMaxQueueTime to 1000
+[07/22/24 04:33:27:065][377304][I]:[PACER] SetPacingFactor to 2.000000
+[07/22/24 04:33:27:065][377304][I]:[PACER] Enable padding to false
+[07/22/24 04:33:27:065][377304][I]:(aimd_rate_control.cc:108): Using aimd rate control with back off factor 0.85
+[07/22/24 04:33:27:065][377304][I]:(remote_bitrate_estimator_single_stream.cc:55): RemoteBitrateEstimatorSingleStream: Instantiating.
+[07/22/24 04:33:27:065][377322][I]:(send_side_congestion_controller.cc:423): Creating feedback based only controller
+[07/22/24 04:33:27:065][377304][I]:(call.cc:1391): UpdateAggregateNetworkState: aggregate_state=down
+[07/22/24 04:33:27:065][377304][I]:(send_side_congestion_controller.cc:572): SignalNetworkState Down
+[07/22/24 04:33:27:065][377304][I]:(call.cc:1391): UpdateAggregateNetworkState: aggregate_state=down
+[07/22/24 04:33:27:065][377304][I]:(send_side_congestion_controller.cc:572): SignalNetworkState Down
+[07/22/24 04:33:27:065][377322][I]:(send_side_congestion_controller.cc:333): Bitrate estimate state changed, BWE: 200000 bps.
+[07/22/24 04:33:27:065][377322][I]:(bitrate_allocator.cc:161): Current BWE 200000
+[07/22/24 04:33:27:065][377304][I]:[LUR]: negotiaion video fec method, fec decision: 6, dmversion: 3, fec multiple redundancy: 1
+[07/22/24 04:33:27:065][377322][I]:(paced_sender.cc:117): PacedSender paused.
+[07/22/24 04:33:27:065][377322][I]:(send_side_congestion_controller.cc:333): Bitrate estimate state changed, BWE: 0 bps.
+[07/22/24 04:33:27:065][377304][I]:[cap] onCapabilitiesChanged: 0:{1:BROADCASTING}
+[07/22/24 04:33:27:065][377304][I]:[cap] onCapabilitiesChanged: 1:{1:G722,2:OPUS,3:OPUS2ch,5:NOVA,6:AACLC,7:AACLC2ch,8:HEAAC,9:HEAAC2ch}
+[07/22/24 04:33:27:065][377304][I]:[cap] onCapabilitiesChanged: 2:{1:VP8,3:H264,4:H265}
+[07/22/24 04:33:27:065][377304][I]:[cap] onCapabilitiesChanged: 3:{0:INTRAREQUEST,2:HIGHPROFILE}
+[07/22/24 04:33:27:065][377304][I]:[cap] onCapabilitiesChanged: 4:{0:NONE,1:ULP,2:RS,4:DM,5:RQ}
+[07/22/24 04:33:27:065][377304][I]:[cap] onCapabilitiesChanged: 5:{0:WEBINTEROP}
+[07/22/24 04:33:27:065][377304][I]:[cap] onCapabilitiesChanged: 7:{0:SUPPORT}
+[07/22/24 04:33:27:065][377304][I]:[cap] onCapabilitiesChanged: 8:{0:TWOBYTES}
+[07/22/24 04:33:27:065][377304][I]:[cap] onCapabilitiesChanged: 10:{0:VP8NASA,1:VP8FEC}
+[07/22/24 04:33:27:065][377304][I]:[cap] onCapabilitiesChanged: 11:{0:VP8SVC,1:H264SVC}
+[07/22/24 04:33:27:065][377304][I]:[cap] onCapabilitiesChanged: 12:{3:dddm}
+[07/22/24 04:33:27:065][377304][I]:[cap] onCapabilitiesChanged: 13:{1:MuiltRdcOpen}
+[07/22/24 04:33:27:065][377304][I]:[cap] onCapabilitiesChanged: 14:{0:H264Bframe}
+[07/22/24 04:33:27:065][377304][I]:[LVCP]: id 0 is created 
+[07/22/24 04:33:27:065][377304][I]:[VSM]: Publish local video track 0x7f6e80273bd0
+[07/22/24 04:33:27:065][377304][I]:(audio_state.cc:91): SetPlayout(1)
+[07/22/24 04:33:27:065][377304][I]:(audio_state.cc:96): really start playout, playout_started_count: 1 force: 0
+[07/22/24 04:33:27:065][377304][W]:[ADMW]: StartPlayout failed: no adm.
+[07/22/24 04:33:27:065][377304][I]:[ASM]: update audio new strategy rsfec status: 0
+[07/22/24 04:33:27:065][377304][I]:[ASM]: update audio rsfec status: 1
+[07/22/24 04:33:27:065][377304][I]:this: 0x1c1d0c0, [CON]: API call to connect '1110' uid '110'
+[07/22/24 04:33:27:065][377304][A]:(00000020): RtcConnectionImpl::stopLastmileProbeTest(this:0x1c1d0c0, void)
+[07/22/24 04:33:27:065][377304][I]:[Call_Parameter]: API call to stopLastmileProbeTest
+[07/22/24 04:33:27:065][377304][I]:[CALLCTX]: LastmileProbeTest doc:{"enable":false,"probeUplink":false,"probeDownlink":false,"expectedUplinkBitrate":0,"expectedDownlinkBitrate":0}
+[07/22/24 04:33:27:065][377304][I]:on set parameters doc='{"rtc.lastmile_probe_test":{"enable":false,"probeUplink":false,"probeDownlink":false,"expectedUplinkBitrate":0,"expectedDownlinkBitrate":0}}', ret=0
+[07/22/24 04:33:27:065][377304][I]:[UAM]: user account added:110, uid:110
+[07/22/24 04:33:27:065][377304][I]:***CALL BEGIN: appid:'f****4' uid:'0', account:'110', cname:'1110' info:'', sid:'87B0182854BD415AAFAEAC86B9FD3759'
+[07/22/24 04:33:27:066][377304][I]:[ap-base] initialize ap list
+[07/22/24 04:33:27:066][377304][I]:[ap-base] append predefined ip: 101.******.165, 18.******.64, 52.******.111, 52.******.238, 168.******.216, 20.******.143, 15.******.208, 18.******.59, 54.******.11, 123.******.221, 13.******.184, 184.******.217, 3.******.239, 3.******.108, 3.******.253, 18.******.254, 54.******.178, 
+[07/22/24 04:33:27:066][377304][I]:[ap-base] append predefined ip: 3.******.78, 52.******.170, 35.******.187, 54.******.72, 15.******.129, 13.******.137, 23.******.152, 112.******.46, 52.******.59, 50.******.121, 52.******.244, 13.******.196, 13.******.235, 199.******.132, 118.******.38, 47.******.93, 106.******.130, 2406:******:59, 2600:******:121, 
+[07/22/24 04:33:27:066][377304][I]:[ap-base] append predefined ip: 3.******.78, 52.******.170, 35.******.187, 54.******.72, 15.******.129, 13.******.137, 23.******.152, 112.******.46, 52.******.59, 50.******.121, 52.******.244, 13.******.196, 13.******.235, 199.******.132, 118.******.38, 47.******.93, 106.******.130, 2406:******:59, 2600:******:121, 
+[07/22/24 04:33:27:066][377304][I]:[ap-base] queryDns ap2-tls.agora.io
+[07/22/24 04:33:27:066][377304][I]:[CM]: dns not match in cache, domain is ap2-tls.agora.io
+[07/22/24 04:33:27:066][377304][I]:[ap-base] queryDns ap3.agora.io
+[07/22/24 04:33:27:066][377304][I]:[CM]: dns not match in cache, domain is ap3.agora.io
+[07/22/24 04:33:27:066][377304][I]:[vocs] uid:110 vocs initialized
+[07/22/24 04:33:27:066][377304][I]:[RERA]: initialize event rule for space id:140112571598880
+[07/22/24 04:33:27:066][377304][I]:[cc] fecRexferEnabled:0
+[07/22/24 04:33:27:067][377304][I]:add ping address 100.******.251
+[07/22/24 04:33:27:067][377304][I]:PING 100.******.251:0 16(44) bytes of data
+[07/22/24 04:33:27:067][377304][I]:[CM]: emit join channel signal, uid:110 size=3
+[07/22/24 04:33:27:067][377304][I]:[CM]: connection state changed from 1 to 2 caused by reason[0]
+[07/22/24 04:33:27:067][377304][A]:(00000021): RtcConnectionImpl::setConnectionState(this:0x1c1d0c0, state: 2)
+[07/22/24 04:33:27:067][377304][A]:(00000022): LegacyEventProxy::onConnectionStateChanged->onConnecting(this:0x1c1c550, channel:"1110", userId:"110", reason:0)
+[07/22/24 04:33:27:067][377304][I]:[vocs] uid:110 lookup channel...
+[07/22/24 04:33:27:067][377304][I]:[CALLCTX]: uid:110 report bitrate: a/v/t: 64/400/464
+[07/22/24 04:33:27:067][377304][I]:[vocs] unilbs request: it is chorus, client role: 1
+[07/22/24 04:33:27:067][377304][I]:[vocs] creating channel, ts 1721622807067....
+[07/22/24 04:33:27:067][377304][I]:[vocs] Send AP Request
+[07/22/24 04:33:27:067][377304][I]:[ap-17] client: SendRequest
+[07/22/24 04:33:27:067][377304][I]:create session builder 0x7f6e80238ab0
+[07/22/24 04:33:27:067][377304][I]:[ap-17] send message to: 3.******.78:8443, with opid: 1138069232, transport type = 5, send ts = 1721622807067
+[07/22/24 04:33:27:067][377304][I]:create session builder 0x7f6e803b8eb0
+[07/22/24 04:33:27:067][377304][I]:[ap-17] send message to: 52.******.170:8443, with opid: 1138069233, transport type = 5, send ts = 1721622807067
+[07/22/24 04:33:27:067][377304][I]:create session builder 0x7f6e803ba6a0
+[07/22/24 04:33:27:067][377304][I]:[ap-17] send message to: 35.******.187:8443, with opid: 1138069234, transport type = 5, send ts = 1721622807067
+[07/22/24 04:33:27:067][377304][I]:connecting to 101.******.165:8443 handle 0x7f6e803bc860, 149
+[07/22/24 04:33:27:068][377304][I]:[ap-17] connect to: 101.******.165:8443, with opid: 1138069235, transport type = 1, send ts = 1721622807067
+[07/22/24 04:33:27:068][377304][I]:[ap-17] client: DoProcess, now: 1721622807067, retry times: 0
+[07/22/24 04:33:27:068][377304][I]:[PacketEncryption::activate] disable packet encryption
+[07/22/24 04:33:27:068][377304][I]:CreatePacketEncryption: current communication disable packet encryption
+[07/22/24 04:33:27:068][377304][I]:[PacketEncryption::activate] disable packet encryption
+[07/22/24 04:33:27:068][377304][I]:CreatePacketEncryption: current communication disable packet encryption
+[07/22/24 04:33:27:068][377304][I]:create dangling client connection 0x7f6e803c6100
+[07/22/24 04:33:27:068][377304][I]:[remote:3.******.78:8443] start 0th connect, send client hello 16421606|syn, early data: 0, tags: SNI :332d302d3136...(24), PDMD:, CPTO:4e4f4e432000...(129), CID: 5194461127390770233
+[07/22/24 04:33:27:068][377304][I]:create dangling client connection 0x7f6e803c6780
+[07/22/24 04:33:27:068][377304][I]:[remote:35.******.187:8443] start 0th connect, send client hello 9520300|syn, early data: 0, tags: SNI :33352d313738...(28), PDMD:, CPTO:4e4f4e432000...(129), CID: 6822173684712611240
+[07/22/24 04:33:27:068][377304][I]:create dangling client connection 0x7f6e803c6e00
+[07/22/24 04:33:27:068][377304][I]:[remote:52.******.170:8443] start 0th connect, send client hello 10957027|syn, early data: 0, tags: SNI :35322d35322d...(26), PDMD:, CPTO:4e4f4e432000...(129), CID: 11590737894019811044
+[07/22/24 04:33:27:075][377304][I]:(audio_device_buffer.cc:438): Size of playout buffer: 160
+[07/22/24 04:33:27:076][377304][I]:ains not supports on current arch
+[07/22/24 04:33:27:076][377304][I]:NSNG: strategy 0, enhai 1.000000, enhsta 2.000000, stabound 0.050000, gainboost 2.000000, finalmask 0.030000
+[07/22/24 04:33:27:076][377304][E]:(push_resampler.cc:96): InitializeIfNeeded: resampler is using fixed ratio and src_sample_rate_hz:48000 dst_sample_rate_hz:16000
+[07/22/24 04:33:27:077][377304][I]:[ap-base] OnParsedDns ap1-tds.agora.io with err 0, 116.******.88, 180.******.248, 
+[07/22/24 04:33:27:077][377304][I]:[ap-6] client: OnSetDnsResult, will try to use DNS to connect
+[07/22/24 04:33:27:077][377304][I]:create session builder 0x7f6e8027b0e0
+[07/22/24 04:33:27:077][377304][I]:[ap-6] send message to: 199.******.132:8443, with opid: 316336300, transport type = 5, send ts = 1721622807077
+[07/22/24 04:33:27:077][377304][I]:[ap-6] client: OnSetDnsResult, will try to use DNS to connect
+[07/22/24 04:33:27:077][377304][I]:[CM]: succeeded to flush to Cache File Manager in DnsCacheDocument::Pack(), elapsed 0
+[07/22/24 04:33:27:077][377304][I]:create dangling client connection 0x7f6e802f6470
+[07/22/24 04:33:27:077][377304][I]:[remote:199.******.132:8443] start 0th connect, send client hello 4731195|syn, early data: 0, tags: SNI :3139392d3139...(28), PDMD:, CPTO:4e4f4e432000...(129), CID: 6999011523129508462
+[07/22/24 04:33:27:077][377304][I]:[ap-base] OnParsedDns ap-tds-tls.agora.io with err 0, 114.******.40, 103.******.59, 139.******.147, 101.******.26, 
+[07/22/24 04:33:27:077][377304][I]:[ap-6] client: OnSetDnsResult, will try to use DNS to connect
+[07/22/24 04:33:27:077][377304][I]:[CM]: succeeded to flush to Cache File Manager in DnsCacheDocument::Pack(), elapsed 0
+[07/22/24 04:33:27:077][377304][I]:[ap-base] OnParsedDns ap2-tls.agora.io with err 0, 103.******.59, 139.******.147, 101.******.26, 114.******.40, 
+[07/22/24 04:33:27:077][377304][I]:[ap-17] client: OnSetDnsResult, will try to use DNS to connect
+[07/22/24 04:33:27:077][377304][I]:[CM]: succeeded to flush to Cache File Manager in DnsCacheDocument::Pack(), elapsed 0
+[07/22/24 04:33:27:077][377304][I]:[ap-base] OnParsedDns ap2-tls.agora.io with err 0, 103.******.59, 139.******.147, 101.******.26, 114.******.40, 
+[07/22/24 04:33:27:077][377304][I]:[ap-5] client: OnSetDnsResult, will try to use DNS to connect
+[07/22/24 04:33:27:089][377304][I]:[remote:115.******.229:8130] receive server hello piece id: 0, 1/10, not complete
+[07/22/24 04:33:27:089][377304][I]:[remote:115.******.229:8130] receive server hello piece id: 1, 2/10, not complete
+[07/22/24 04:33:27:089][377304][I]:[remote:115.******.229:8130] receive server hello piece id: 2, 3/10, not complete
+[07/22/24 04:33:27:089][377304][I]:[remote:115.******.229:8130] receive server hello piece id: 3, 4/10, not complete
+[07/22/24 04:33:27:090][377304][I]:[remote:115.******.229:8130] receive server hello piece id: 4, 5/10, complete
+[07/22/24 04:33:27:090][377304][I]:[TM]: Evaluate cert chain size 3
+[07/22/24 04:33:27:090][377304][I]:[TM]: Add cert to cert store
+[07/22/24 04:33:27:090][377304][I]:[TM]: Add root certs to cert store
+[07/22/24 04:33:27:090][377304][I]:[TM]: Begin verify leaf cert
+[07/22/24 04:33:27:091][377304][I]:[TM]: End verify leaf cert, ret succ
+[07/22/24 04:33:27:091][377304][I]:[remote:115.******.229:8130] current in 0th connect, send client response 6746225|ack:359239, early data: 0, tags: , CID: 14741151681157336840
+[07/22/24 04:33:27:091][377304][I]:[remote:115.******.229:8130] set congestion control type: BBRv1 pacing: true, initial cwin in pkts: 20
+[07/22/24 04:33:27:091][377304][I]:[remote:115.******.229:8130] set loss detection type: AdaptiveSequence
+[07/22/24 04:33:27:091][377304][I]:[remote:115.******.229:8130] create connection 0x7f6e802f2b40, self initial seq: 6746226, peer initial seq: 359240, initial rtt: 27ms, version: Unknown, forged protocol: 0, connection_id: 14741151681157336840, perspective: Perspective::kClient, cc: BBRv1
+[07/22/24 04:33:27:091][377304][I]:[remote:115.******.229:8130] create session 0x7f6e802e99d0
+[07/22/24 04:33:27:091][377304][I]:[rs] link aut to 115.******.229:8130 connected
+[07/22/24 04:33:27:091][377304][I]:RawDataList has been sent && clear by 1 transportor, totoal buffer: 6
+[07/22/24 04:33:27:091][377304][I]:destroy dangling client connection 0x7f6e8023a620
+[07/22/24 04:33:27:093][377304][I]:[ap-base] OnParsedDns ap3.agora.io with err 0, 103.******.58, 139.******.146, 180.******.248, 182.******.198, 
+[07/22/24 04:33:27:093][377304][I]:[ap-17] client: OnSetDnsResult, will try to use DNS to connect
+[07/22/24 04:33:27:093][377304][I]:create session builder 0x7f6e802e9ed0
+[07/22/24 04:33:27:093][377304][I]:[ap-17] send message to: 13.******.235:8443, with opid: 1138069236, transport type = 5, send ts = 1721622807093
+[07/22/24 04:33:27:093][377304][I]:[ap-17] client: OnSetDnsResult, will try to use DNS to connect
+[07/22/24 04:33:27:093][377304][I]:[CM]: succeeded to flush to Cache File Manager in DnsCacheDocument::Pack(), elapsed 0
+[07/22/24 04:33:27:093][377304][I]:[ap-base] OnParsedDns ap3.agora.io with err 0, 103.******.58, 139.******.146, 180.******.248, 182.******.198, 
+[07/22/24 04:33:27:093][377304][I]:[ap-5] client: OnSetDnsResult, will try to use DNS to connect
+[07/22/24 04:33:27:093][377304][I]:create session builder 0x7f6e802eebe0
+[07/22/24 04:33:27:093][377304][I]:[ap-5] send message to: 47.******.93:8443, with opid: 791660836, transport type = 5, send ts = 1721622807093
+[07/22/24 04:33:27:093][377304][I]:[ap-5] client: OnSetDnsResult, will try to use DNS to connect
+[07/22/24 04:33:27:093][377304][I]:create dangling client connection 0x7f6e803057a0
+[07/22/24 04:33:27:093][377304][I]:[remote:13.******.235:8443] start 0th connect, send client hello 5613000|syn, early data: 0, tags: SNI :31332d313234...(28), PDMD:, CPTO:4e4f4e432000...(129), CCRT:b5880f7ff03f...(24), CID: 910582358444454789
+[07/22/24 04:33:27:093][377304][I]:create dangling client connection 0x7f6e80305e20
+[07/22/24 04:33:27:093][377304][I]:[remote:47.******.93:8443] start 0th connect, send client hello 797228|syn, early data: 0, tags: SNI :34372d313037...(26), PDMD:, CPTO:4e4f4e432000...(129), CCRT:b5880f7ff03f...(24), CID: 6017287800430269642
+[07/22/24 04:33:27:108][377304][I]:[ap-6] connected to 101.******.165:8443, transport type = 1
+[07/22/24 04:33:27:108][377304][I]:[ap-6] send message to: 101.******.165:8443 with opid: 316336301, transport type = 1, send ts = 1721622807108
+[07/22/24 04:33:27:110][377304][I]:[ap-5] connected to 101.******.165:8443, transport type = 1
+[07/22/24 04:33:27:110][377304][I]:[ap-5] send message to: 101.******.165:8443 with opid: 791660837, transport type = 1, send ts = 1721622807110
+[07/22/24 04:33:27:114][377304][I]:[remote:47.******.93:8443] receive server hello piece id: 0, 1/1, complete
+[07/22/24 04:33:27:115][377304][I]:[TM]: Evaluate cert chain size 3
+[07/22/24 04:33:27:115][377304][I]:[TM]: Add cert to cert store
+[07/22/24 04:33:27:115][377304][I]:[TM]: Add root certs to cert store
+[07/22/24 04:33:27:115][377304][I]:[TM]: Begin verify leaf cert
+[07/22/24 04:33:27:115][377304][I]:[TM]: End verify leaf cert, ret succ
+[07/22/24 04:33:27:115][377304][I]:[remote:47.******.93:8443] current in 0th connect, send client response 797228|ack:1156095, early data: 177, tags: , CID: 6017287800430269642
+[07/22/24 04:33:27:115][377304][I]:[remote:47.******.93:8443] set congestion control type: BBRv1 pacing: true, initial cwin in pkts: 20
+[07/22/24 04:33:27:115][377304][I]:[remote:47.******.93:8443] set loss detection type: AdaptiveSequence
+[07/22/24 04:33:27:115][377304][I]:[remote:47.******.93:8443] create connection 0x7f6e80439590, self initial seq: 797229, peer initial seq: 1156096, initial rtt: 22ms, version: Unknown, forged protocol: 0, connection_id: 6017287800430269642, perspective: Perspective::kClient, cc: BBRv1, p
+[07/22/24 04:33:27:115][377304][I]:[remote:47.******.93:8443] create session 0x7f6e80434930
+[07/22/24 04:33:27:115][377304][I]:[ap-5] connected to 47.******.93:8443, transport type = 5
+[07/22/24 04:33:27:115][377304][I]:[ap-5] send message to: 47.******.93:8443 with opid: 791660838, transport type = 5, send ts = 1721622807115
+[07/22/24 04:33:27:115][377304][I]:destroy dangling client connection 0x7f6e80305e20
+[07/22/24 04:33:27:119][377304][I]:[ap-17] connected to 101.******.165:8443, transport type = 1
+[07/22/24 04:33:27:119][377304][I]:[ap-17] send message to: 101.******.165:8443 with opid: 1138069237, transport type = 1, send ts = 1721622807119
+[07/22/24 04:33:27:125][377304][I]:[ap-6] response from 101.******.165:8443 success, opid: 316336301, service_id: 6, uri: 7
+[07/22/24 04:33:27:125][377304][I]:[CS]:t, ap 101.******.165:8443 returns 
+[07/22/24 04:33:27:126][377304][I]:[CS]: AP Tds success with config: {"_store enable xdump since 3.4.6":{"A":{"rtc.enable_xdump":true,"rtc.enable_xdump_file":true,"rtc.enable_xdump_upload":true}}}, size: 1
+[07/22/24 04:33:27:126][377304][I]:[VSM]: user parameter enable_hw_decoder : 
+[07/22/24 04:33:27:126][377304][I]:[VSM]: user parameter hardware_decoding : -1
+[07/22/24 04:33:27:126][377304][I]:[VSM]: user parameter value found for enable_video_freeze_diagnose : true
+[07/22/24 04:33:27:126][377304][I]:[VSM]: user parameter value found for retrans_detect_enable : false
+[07/22/24 04:33:27:126][377304][I]:[VSM]: user parameter value found for use_sent_ts_enable : true
+[07/22/24 04:33:27:126][377304][I]:[VSM]: no TDS value found for switch_soft_decoder_threshold
+[07/22/24 04:33:27:126][377304][I]:[VSM]: no TDS value found for enable_parser_reject
+[07/22/24 04:33:27:126][377304][I]:[VSM]: no TDS value found for enable_hw_decoder
+[07/22/24 04:33:27:126][377304][I]:[VSM]: no TDS value found for enable_background_hw_decode
+[07/22/24 04:33:27:126][377304][I]:[VSM]: no TDS value found for che.hardware_decoding
+[07/22/24 04:33:27:126][377304][I]:[VSM]: no TDS value found for tds_retrans_detect_enable
+[07/22/24 04:33:27:126][377304][I]:[VSM]: no TDS value found for tds_use_sent_ts_enable
+[07/22/24 04:33:27:126][377304][I]:[VSM]: user parameter value found for packet_buffer_size : 2048
+[07/22/24 04:33:27:126][377304][I]:[VSM]: no TDS value found for packet_buffer_size
+[07/22/24 04:33:27:126][377304][I]:[VSM]: user parameter value found for enable_vpr : true
+[07/22/24 04:33:27:126][377304][I]:[VSM]: user parameter value found for che.video.vpr.init_size : 1
+[07/22/24 04:33:27:126][377304][I]:[VSM]: user parameter value found for che.video.vpr.max_size : 3
+[07/22/24 04:33:27:126][377304][I]:[VSM]: user parameter value found for che.video.vpr.frozen_ms_thres : 200
+[07/22/24 04:33:27:126][377304][I]:[VSM]: user parameter value found for che.video.vpr.frozen_rate_thres : 5
+[07/22/24 04:33:27:126][377304][I]:[VSM]: user parameter value found for che.video.vpr.method : 0
+[07/22/24 04:33:27:126][377304][I]:[VSM]: user parameter value found for che.video.vpr.vpr_adaptive_thres : 50
+[07/22/24 04:33:27:126][377304][W]:[diag] Receive debug enabled 1 from config service
+[07/22/24 04:33:27:126][377304][I]:[CALLCTX]: in call, it is reporting abtest event now...
+[07/22/24 04:33:27:133][377304][I]:[ap-5] response from 101.******.165:8443 success, opid: 791660837, service_id: 5, uri: 2
+[07/22/24 04:33:27:133][377304][I]:[rlbs/t]  responsed from 101.******.165:8443 with 3 servers: 115.******.8, 122.******.213, 115.******.209, 
+[07/22/24 04:33:27:133][377304][I]:[rs] updateServers 115.******.8:8130, priority 3
+[07/22/24 04:33:27:133][377304][I]:[rs] updateServers 122.******.213:8130, priority 3
+[07/22/24 04:33:27:133][377304][I]:[rs] updateServers 115.******.209:8130, priority 3
+[07/22/24 04:33:27:133][377304][I]:create session builder 0x7f6e8041fe30
+[07/22/24 04:33:27:133][377304][I]:[remote:115.******.229:8130] destroy session 0x7f6e802e99d0
+[07/22/24 04:33:27:133][377304][I]:[remote:115.******.229:8130] start last ack, duration: 2000 ms
+[07/22/24 04:33:27:133][377304][I]:destroy session builder 0x7f6e80234200
+[07/22/24 04:33:27:133][377304][I]:[remote:115.******.229:8130] destroy connection 0x7f6e802f2b40
+[07/22/24 04:33:27:133][377304][I]:destroy session builder 0x7f6e8008b440
+[07/22/24 04:33:27:133][377304][I]:destroy dangling client connection 0x7f6e80239fa0
+[07/22/24 04:33:27:133][377304][I]:[remote:47.******.93:8443] destroy session 0x7f6e80434930
+[07/22/24 04:33:27:133][377304][I]:[remote:47.******.93:8443] start last ack, duration: 2000 ms
+[07/22/24 04:33:27:133][377304][I]:destroy session builder 0x7f6e802eebe0
+[07/22/24 04:33:27:133][377304][I]:[remote:47.******.93:8443] destroy connection 0x7f6e80439590
+[07/22/24 04:33:27:133][377304][I]:create dangling client connection 0x7f6e80305e20
+[07/22/24 04:33:27:133][377304][I]:[remote:115.******.8:8130] start 0th connect, send client hello 10983255|syn, early data: 0, tags: SNI :3131352d3233...(26), NELD:, PDMD:, CPTO:4e4f4e432000...(129), CCRT:b5880f7ff03f...(24), CID: 1359843931047385824
+[07/22/24 04:33:27:138][377304][I]:[remote:3.******.78:8443] receive server hello piece id: 0, 1/10, not complete
+[07/22/24 04:33:27:138][377304][I]:[remote:3.******.78:8443] receive server hello piece id: 1, 2/10, not complete
+[07/22/24 04:33:27:138][377304][I]:[remote:3.******.78:8443] receive server hello piece id: 2, 3/10, not complete
+[07/22/24 04:33:27:138][377304][I]:[remote:3.******.78:8443] receive server hello piece id: 3, 4/10, not complete
+[07/22/24 04:33:27:138][377304][I]:[remote:3.******.78:8443] receive server hello piece id: 4, 5/10, complete
+[07/22/24 04:33:27:139][377304][I]:[TM]: Evaluate cert chain size 3
+[07/22/24 04:33:27:139][377304][I]:[TM]: Add cert to cert store
+[07/22/24 04:33:27:139][377304][I]:[TM]: Add root certs to cert store
+[07/22/24 04:33:27:139][377304][I]:[TM]: Begin verify leaf cert
+[07/22/24 04:33:27:139][377304][I]:[TM]: End verify leaf cert, ret succ
+[07/22/24 04:33:27:139][377304][I]:[remote:3.******.78:8443] current in 0th connect, send client response 7377762|ack:1493234, early data: 505, tags: , CID: 17206454205448979097
+[07/22/24 04:33:27:139][377304][I]:[remote:3.******.78:8443] set congestion control type: BBRv1 pacing: true, initial cwin in pkts: 20
+[07/22/24 04:33:27:139][377304][I]:[remote:3.******.78:8443] set loss detection type: AdaptiveSequence
+[07/22/24 04:33:27:139][377304][I]:[remote:3.******.78:8443] create connection 0x7f6e80439590, self initial seq: 7377763, peer initial seq: 1493235, initial rtt: 81ms, version: Unknown, forged protocol: 0, connection_id: 17206454205448979097, perspective: Perspective::kClient, cc: BBRv1, 
+[07/22/24 04:33:27:139][377304][I]:[remote:3.******.78:8443] create session 0x7f6e80300910
+[07/22/24 04:33:27:139][377304][I]:[ap-6] connected to 3.******.78:8443, transport type = 5
+[07/22/24 04:33:27:139][377304][I]:[remote:3.******.78:8443] destroy session 0x7f6e80300910
+[07/22/24 04:33:27:139][377304][I]:[remote:3.******.78:8443] start last ack, duration: 2000 ms
+[07/22/24 04:33:27:139][377304][I]:destroy dangling client connection 0x7f6e800fa960
+[07/22/24 04:33:27:139][377304][I]:destroy session builder 0x7f6e8006a890
+[07/22/24 04:33:27:139][377304][I]:[remote:3.******.78:8443] destroy connection 0x7f6e80439590
+[07/22/24 04:33:27:147][377304][I]:[remote:3.******.78:8443] receive server hello piece id: 0, 1/10, not complete
+[07/22/24 04:33:27:148][377304][I]:[remote:3.******.78:8443] receive server hello piece id: 1, 2/10, not complete
+[07/22/24 04:33:27:148][377304][I]:[remote:3.******.78:8443] receive server hello piece id: 2, 3/10, not complete
+[07/22/24 04:33:27:148][377304][I]:[remote:3.******.78:8443] receive server hello piece id: 3, 4/10, not complete
+[07/22/24 04:33:27:148][377304][I]:[remote:3.******.78:8443] receive server hello piece id: 4, 5/10, complete
+[07/22/24 04:33:27:149][377304][I]:[TM]: Evaluate cert chain size 3
+[07/22/24 04:33:27:149][377304][I]:[TM]: Add cert to cert store
+[07/22/24 04:33:27:149][377304][I]:[TM]: Add root certs to cert store
+[07/22/24 04:33:27:149][377304][I]:[TM]: Begin verify leaf cert
+[07/22/24 04:33:27:149][377304][I]:[TM]: End verify leaf cert, ret succ
+[07/22/24 04:33:27:149][377304][I]:[remote:3.******.78:8443] current in 0th connect, send client response 16421606|ack:240660, early data: 346, tags: , CID: 5194461127390770233
+[07/22/24 04:33:27:149][377304][I]:[remote:3.******.78:8443] set congestion control type: BBRv1 pacing: true, initial cwin in pkts: 20
+[07/22/24 04:33:27:149][377304][I]:[remote:3.******.78:8443] set loss detection type: AdaptiveSequence
+[07/22/24 04:33:27:149][377304][I]:[remote:3.******.78:8443] create connection 0x7f6e80439470, self initial seq: 16421607, peer initial seq: 240661, initial rtt: 81ms, version: Unknown, forged protocol: 0, connection_id: 5194461127390770233, perspective: Perspective::kClient, cc: BBRv1, p
+[07/22/24 04:33:27:149][377304][I]:[remote:3.******.78:8443] create session 0x7f6e80300910
+[07/22/24 04:33:27:149][377304][I]:[ap-17] connected to 3.******.78:8443, transport type = 5
+[07/22/24 04:33:27:149][377304][I]:[ap-17] send message to: 3.******.78:8443 with opid: 1138069238, transport type = 5, send ts = 1721622807149
+[07/22/24 04:33:27:149][377304][I]:destroy dangling client connection 0x7f6e803c6100
+[07/22/24 04:33:27:150][377304][I]:[remote:115.******.8:8130] receive server hello piece id: 0, 1/1, complete
+[07/22/24 04:33:27:151][377304][I]:[TM]: Evaluate cert chain size 3
+[07/22/24 04:33:27:151][377304][I]:[TM]: Add cert to cert store
+[07/22/24 04:33:27:151][377304][I]:[TM]: Add root certs to cert store
+[07/22/24 04:33:27:151][377304][I]:[TM]: Begin verify leaf cert
+[07/22/24 04:33:27:151][377304][I]:[TM]: End verify leaf cert, ret succ
+[07/22/24 04:33:27:151][377304][I]:[remote:115.******.8:8130] current in 0th connect, send client response 10983255|ack:11440703, early data: 0, tags: , CID: 1359843931047385824
+[07/22/24 04:33:27:151][377304][I]:[remote:115.******.8:8130] set congestion control type: BBRv1 pacing: true, initial cwin in pkts: 20
+[07/22/24 04:33:27:151][377304][I]:[remote:115.******.8:8130] set loss detection type: AdaptiveSequence
+[07/22/24 04:33:27:151][377304][I]:[remote:115.******.8:8130] create connection 0x7f6e8023e1b0, self initial seq: 10983256, peer initial seq: 11440704, initial rtt: 18ms, version: Unknown, forged protocol: 0, connection_id: 1359843931047385824, perspective: Perspective::kClient, cc: BBRv1
+[07/22/24 04:33:27:151][377304][I]:[remote:115.******.8:8130] create session 0x7f6e80411ef0
+[07/22/24 04:33:27:151][377304][I]:[rs] link aut to 115.******.8:8130 connected
+[07/22/24 04:33:27:151][377304][I]:destroy dangling client connection 0x7f6e80305e20
+[07/22/24 04:33:27:153][377304][I]:[ap-17] response from 101.******.165:8443 success, opid: 1138069237, service_id: 17, uri: 2
+[07/22/24 04:33:27:153][377304][I]:[vocs] update wan ip:106.******.34, ipType:0
+[07/22/24 04:33:27:153][377304][I]:[vocs/t] **responsed from 101.******.165:8443, 3 vos: 124.******.138, 119.******.16, 60.******.41,  elapsed 88, server ts 1721622807146, wan ip 106.******.34
+[07/22/24 04:33:27:153][377304][I]:[vos] clear vos list
+[07/22/24 04:33:27:153][377304][I]:[vos] added server: 124.******.138:4060
+[07/22/24 04:33:27:153][377304][I]:[vos] added server: 119.******.16:4061
+[07/22/24 04:33:27:153][377304][I]:[vos] added server: 60.******.41:4054
+[07/22/24 04:33:27:153][377304][I]:[ch0] VosNtp is initialized......
+[07/22/24 04:33:27:153][377304][I]:[ch0] vos2 is initialized
+[07/22/24 04:33:27:153][377304][I]:[vos] selected: 124.******.138:4060
+[07/22/24 04:33:27:153][377304][I]:mtu probe from 1280 to 1350
+[07/22/24 04:33:27:153][377304][I]:create session builder 0x7f6e8006a890
+[07/22/24 04:33:27:153][377304][I]:add ping address 106.******.34
+[07/22/24 04:33:27:153][377304][I]:PING 106.******.34:0 16(44) bytes of data
+[07/22/24 04:33:27:153][377304][I]:[ch0] login strategy=2
+[07/22/24 04:33:27:153][377304][I]:[xdqdebug]: No TDS value found for remote_subscribe_fallback_option, set default option to LOW
+[07/22/24 04:33:27:153][377304][I]:[ds]: ver 1 ds '{"streamType":1,"clientRole":1}'
+[07/22/24 04:33:27:153][377304][I]:[ch0] vos2 login request: it is chorus
+[07/22/24 04:33:27:153][377304][I]:[cap] onCapabilitiesReport: 0:{1:BROADCASTING}
+[07/22/24 04:33:27:153][377304][I]:[cap] onCapabilitiesReport: 1:{1:G722,2:OPUS,3:OPUS2ch,5:NOVA,6:AACLC,7:AACLC2ch,8:HEAAC,9:HEAAC2ch}
+[07/22/24 04:33:27:153][377304][I]:[cap] onCapabilitiesReport: 2:{1:VP8,3:H264,4:H265}
+[07/22/24 04:33:27:153][377304][I]:[cap] onCapabilitiesReport: 3:{0:INTRAREQUEST,2:HIGHPROFILE}
+[07/22/24 04:33:27:153][377304][I]:[cap] onCapabilitiesReport: 4:{0:NONE,1:ULP,2:RS,4:DM,5:RQ}
+[07/22/24 04:33:27:153][377304][I]:[cap] onCapabilitiesReport: 5:{0:WEBINTEROP}
+[07/22/24 04:33:27:153][377304][I]:[cap] onCapabilitiesReport: 7:{0:SUPPORT}
+[07/22/24 04:33:27:153][377304][I]:[cap] onCapabilitiesReport: 8:{0:TWOBYTES}
+[07/22/24 04:33:27:153][377304][I]:[cap] onCapabilitiesReport: 10:{0:VP8NASA,1:VP8FEC}
+[07/22/24 04:33:27:153][377304][I]:[cap] onCapabilitiesReport: 11:{0:VP8SVC,1:H264SVC}
+[07/22/24 04:33:27:153][377304][I]:[cap] onCapabilitiesReport: 12:{3:dddm}
+[07/22/24 04:33:27:153][377304][I]:[cap] onCapabilitiesReport: 13:{1:MuiltRdcOpen}
+[07/22/24 04:33:27:153][377304][I]:[cap] onCapabilitiesReport: 14:{0:H264Bframe}
+[07/22/24 04:33:27:154][377304][I]:[ch0] Login VOS2 (proto:11, cid:968746564, uid:110, role:1, ts:1721622807153, ticket size:196, detail size:484 ds:1 stream:+A-V) 1: 124.******.138:4060, secure token: 1
+[07/22/24 04:33:27:154][377304][I]:create dangling client connection 0x7f6e80305e20
+[07/22/24 04:33:27:154][377304][I]:[remote:124.******.138:4060] start 0th connect, send client hello 13510552|syn, early data: 714, tags: 
+[07/22/24 04:33:27:167][377304][I]:[remote:124.******.138:4060] current in 0th connect, send client response 13510552|ack:5969102, early data: 714, tags: 
+[07/22/24 04:33:27:167][377304][I]:[remote:124.******.138:4060] set congestion control type: BBRv1 pacing: true, initial cwin in pkts: 20
+[07/22/24 04:33:27:167][377304][I]:[remote:124.******.138:4060] set loss detection type: AdaptiveSequence
+[07/22/24 04:33:27:167][377304][I]:[remote:124.******.138:4060] create connection 0x7f6e80099970, self initial seq: 13510553, peer initial seq: 5969103, initial rtt: 14ms, version: Unknown, forged protocol: 0, connection_id: null, perspective: Perspective::kClient, cc: BBRv1, pacing: true
+[07/22/24 04:33:27:167][377304][I]:[remote:124.******.138:4060] set cc private flag: 0
+[07/22/24 04:33:27:167][377304][I]:[remote:124.******.138:4060] set default ack delay: 16ms
+[07/22/24 04:33:27:167][377304][I]:[remote:124.******.138:4060] set default ack ack: true
+[07/22/24 04:33:27:167][377304][I]:[remote:124.******.138:4060] create session 0x7f6e802ecc30
+[07/22/24 04:33:27:167][377304][I]:[VSM]: user parameter enable_hw_decoder : 
+[07/22/24 04:33:27:167][377304][I]:[VSM]: user parameter hardware_decoding : -1
+[07/22/24 04:33:27:167][377304][I]:[VSM]: user parameter value found for enable_video_freeze_diagnose : true
+[07/22/24 04:33:27:168][377304][I]:[VSM]: user parameter value found for retrans_detect_enable : false
+[07/22/24 04:33:27:168][377304][I]:[VSM]: user parameter value found for use_sent_ts_enable : true
+[07/22/24 04:33:27:168][377304][I]:[VSM]: no TDS value found for switch_soft_decoder_threshold
+[07/22/24 04:33:27:168][377304][I]:[VSM]: no TDS value found for enable_parser_reject
+[07/22/24 04:33:27:168][377304][I]:[VSM]: no TDS value found for enable_hw_decoder
+[07/22/24 04:33:27:168][377304][I]:[VSM]: no TDS value found for enable_background_hw_decode
+[07/22/24 04:33:27:168][377304][I]:[VSM]: no TDS value found for che.hardware_decoding
+[07/22/24 04:33:27:168][377304][I]:[VSM]: no TDS value found for tds_retrans_detect_enable
+[07/22/24 04:33:27:168][377304][I]:[VSM]: no TDS value found for tds_use_sent_ts_enable
+[07/22/24 04:33:27:168][377304][I]:[VSM]: user parameter value found for packet_buffer_size : 2048
+[07/22/24 04:33:27:168][377304][I]:[VSM]: no TDS value found for packet_buffer_size
+[07/22/24 04:33:27:168][377304][I]:[VSM]: user parameter value found for enable_vpr : true
+[07/22/24 04:33:27:168][377304][I]:[VSM]: user parameter value found for che.video.vpr.init_size : 1
+[07/22/24 04:33:27:168][377304][I]:[VSM]: user parameter value found for che.video.vpr.max_size : 3
+[07/22/24 04:33:27:168][377304][I]:[VSM]: user parameter value found for che.video.vpr.frozen_ms_thres : 200
+[07/22/24 04:33:27:168][377304][I]:[VSM]: user parameter value found for che.video.vpr.frozen_rate_thres : 5
+[07/22/24 04:33:27:168][377304][I]:[VSM]: user parameter value found for che.video.vpr.method : 0
+[07/22/24 04:33:27:168][377304][I]:[VSM]: user parameter value found for che.video.vpr.vpr_adaptive_thres : 50
+[07/22/24 04:33:27:168][377304][W]:[diag] Receive debug enabled 1 from config service
+[07/22/24 04:33:27:168][377304][I]:on set parameters doc='{"rtc.video.max_payload_size":1220}', ret=-4
+[07/22/24 04:33:27:168][377304][I]:destroy dangling client connection 0x7f6e80305e20
+[07/22/24 04:33:27:188][377304][I]:[ch0] **VOS response to login request (res 0 elapsed 123, server ts 1721622807170, s-c:-18) from 124.******.138:4060, and current dest server 124.******.138:4060
+[07/22/24 04:33:27:188][377304][I]:[vocs] update wan ip:106.******.34, ipType:1
+[07/22/24 04:33:27:188][377304][I]:[cap] onCapabilitiesReport: 0:{1:BROADCASTING}
+[07/22/24 04:33:27:188][377304][I]:[cap] onCapabilitiesReport: 1:{1:G722,2:OPUS,3:OPUS2ch,5:NOVA,6:AACLC,7:AACLC2ch,8:HEAAC,9:HEAAC2ch}
+[07/22/24 04:33:27:188][377304][I]:[cap] onCapabilitiesReport: 2:{1:VP8,3:H264,4:H265}
+[07/22/24 04:33:27:188][377304][I]:[cap] onCapabilitiesReport: 3:{0:INTRAREQUEST,2:HIGHPROFILE}
+[07/22/24 04:33:27:188][377304][I]:[cap] onCapabilitiesReport: 4:{0:NONE,1:ULP,2:RS,4:DM,5:RQ}
+[07/22/24 04:33:27:188][377304][I]:[cap] onCapabilitiesReport: 5:{0:WEBINTEROP}
+[07/22/24 04:33:27:188][377304][I]:[cap] onCapabilitiesReport: 7:{0:SUPPORT}
+[07/22/24 04:33:27:188][377304][I]:[cap] onCapabilitiesReport: 8:{0:TWOBYTES}
+[07/22/24 04:33:27:188][377304][I]:[cap] onCapabilitiesReport: 10:{0:VP8NASA,1:VP8FEC}
+[07/22/24 04:33:27:188][377304][I]:[cap] onCapabilitiesReport: 11:{0:VP8SVC,1:H264SVC}
+[07/22/24 04:33:27:188][377304][I]:[cap] onCapabilitiesReport: 12:{3:dddm}
+[07/22/24 04:33:27:188][377304][I]:[cap] onCapabilitiesReport: 13:{1:MuiltRdcOpen}
+[07/22/24 04:33:27:188][377304][I]:[cap] onCapabilitiesReport: 14:{0:H264Bframe}
+[07/22/24 04:33:27:188][377304][I]:[cap] synchronise capability set with seq: 1
+[07/22/24 04:33:27:188][377304][I]:updateActiveVosList: ["124.******.138:4060"]
+[07/22/24 04:33:27:188][377304][I]:[CM]: connection state changed from 2 to 3 caused by reason[1]
+[07/22/24 04:33:27:188][377304][A]:(00000023): RtcConnectionImpl::setConnectionState(this:0x1c1d0c0, state: 3)
+[07/22/24 04:33:27:188][377304][I]:join channel success: cname '1110' uid 110 elapsed 123
+[07/22/24 04:33:27:188][377304][A]:(00000024): LegacyEventProxy::onJoinChannelSuccess->onConnected(this:0x1c1c550, channel:"1110", uid:"110", elapsed:123)
+[07/22/24 04:33:27:188][377304][A]:(00000025):   RtcConnectionImpl::getUserInfoByUid(this:0x1c1d0c0, uid:110)
+[07/22/24 04:33:27:188][377304][A]:(00000026):   RtcConnectionImpl::setLocalUserId(this:0x1c1d0c0, userId:"110")
+[07/22/24 04:33:27:188][377304][I]:this: 0x1c1d0c0, [CON]: set local user id:110
+[07/22/24 04:33:27:188][377304][I]:PublishStateManager::onJoinChannel 0 0
+[07/22/24 04:33:27:188][377304][I]:PublishStateManager::doAudioAction action kUnpublish, audio_current_state_: PUB_STATE_IDLE
+[07/22/24 04:33:27:188][377304][I]:PublishStateManager::doAudioAction PUB_STATE_IDLE => PUB_STATE_NO_PUBLISHED
+[07/22/24 04:33:27:188][377304][I]:[LUR] onAudioPublishStateChanged oldState:0, newState:1, elapseSinceLastState:125
+[07/22/24 04:33:27:188][377304][I]:PublishStateManager::doVideoAction action kUnpublish, video_current_state_: PUB_STATE_IDLE
+[07/22/24 04:33:27:188][377304][I]:PublishStateManager::doVideoAction PUB_STATE_IDLE => PUB_STATE_NO_PUBLISHED
+[07/22/24 04:33:27:188][377304][I]:[LUR] onVideoPublishStateChanged oldState:0, newState:1, elapseSinceLastState:125
+[07/22/24 04:33:27:188][377304][I]:PublishStateManager::onAudioMuted 0
+[07/22/24 04:33:27:188][377304][I]:PublishStateManager::onVideoMuted 0
+[07/22/24 04:33:27:188][377304][I]:[VosNtp0] send ntp server time request, cnt = 2
+[07/22/24 04:33:27:195][377304][I]:[cap] Receive the capability with seq: 1
+[07/22/24 04:33:27:195][377304][I]:[cap] OnRemoteCapabilitySetChanged, capability_set size: 9
+[07/22/24 04:33:27:195][377304][I]:[LUR]: encode fallbackToBaseProfile
+[07/22/24 04:33:27:195][377304][I]:[LUR]: negotiaion video fec method, fec decision: 2, dmversion: 0, fec multiple redundancy: 0
+[07/22/24 04:33:27:195][377304][I]:[ASM]: update audio rsfec status: 0
+[07/22/24 04:33:27:195][377304][I]:[cap] onCapabilitiesChanged: 0:{1:BROADCASTING}
+[07/22/24 04:33:27:195][377304][I]:[cap] onCapabilitiesChanged: 1:{1:G722,2:OPUS}
+[07/22/24 04:33:27:195][377304][I]:[cap] onCapabilitiesChanged: 2:{1:VP8,3:H264}
+[07/22/24 04:33:27:195][377304][I]:[cap] onCapabilitiesChanged: 3:{0:INTRAREQUEST}
+[07/22/24 04:33:27:195][377304][I]:[cap] onCapabilitiesChanged: 4:{2:RS}
+[07/22/24 04:33:27:195][377304][I]:[cap] onCapabilitiesChanged: 5:{0:WEBINTEROP}
+[07/22/24 04:33:27:195][377304][I]:[cap] onCapabilitiesChanged: 10:{0:VP8NASA,1:VP8FEC}
+[07/22/24 04:33:27:195][377304][I]:[cap] onCapabilitiesChanged: 11:{0:VP8SVC}
+[07/22/24 04:33:27:205][377304][I]:[remote:52.******.170:8443] receive server hello piece id: 0, 1/10, not complete
+[07/22/24 04:33:27:205][377304][I]:[remote:52.******.170:8443] receive server hello piece id: 1, 2/10, not complete
+[07/22/24 04:33:27:206][377304][I]:[remote:52.******.170:8443] receive server hello piece id: 2, 3/10, not complete
+[07/22/24 04:33:27:206][377304][I]:[remote:52.******.170:8443] receive server hello piece id: 3, 4/10, not complete
+[07/22/24 04:33:27:206][377304][I]:[remote:52.******.170:8443] receive server hello piece id: 4, 5/10, complete
+[07/22/24 04:33:27:206][377304][I]:[TM]: Evaluate cert chain size 3
+[07/22/24 04:33:27:206][377304][I]:[TM]: Add cert to cert store
+[07/22/24 04:33:27:206][377304][I]:[TM]: Add root certs to cert store
+[07/22/24 04:33:27:207][377304][I]:[TM]: Begin verify leaf cert
+[07/22/24 04:33:27:207][377304][I]:[TM]: End verify leaf cert, ret succ
+[07/22/24 04:33:27:207][377304][I]:[remote:52.******.170:8443] current in 0th connect, send client response 6665666|ack:12682716, early data: 505, tags: , CID: 8413743206566819649
+[07/22/24 04:33:27:207][377304][I]:[remote:52.******.170:8443] set congestion control type: BBRv1 pacing: true, initial cwin in pkts: 21
+[07/22/24 04:33:27:207][377304][I]:[remote:52.******.170:8443] set loss detection type: AdaptiveSequence
+[07/22/24 04:33:27:207][377304][I]:[remote:52.******.170:8443] create connection 0x7f6e80421e00, self initial seq: 6665667, peer initial seq: 12682717, initial rtt: 149ms, version: Unknown, forged protocol: 0, connection_id: 8413743206566819649, perspective: Perspective::kClient, cc: BBRv
+[07/22/24 04:33:27:207][377304][I]:[remote:52.******.170:8443] create session 0x7f6e80239f20
+[07/22/24 04:33:27:207][377304][I]:[ap-6] connected to 52.******.170:8443, transport type = 5
+[07/22/24 04:33:27:207][377304][I]:[remote:52.******.170:8443] destroy session 0x7f6e80239f20
+[07/22/24 04:33:27:207][377304][I]:[remote:52.******.170:8443] start last ack, duration: 2000 ms
+[07/22/24 04:33:27:207][377304][I]:destroy dangling client connection 0x7f6e800fb250
+[07/22/24 04:33:27:207][377304][I]:destroy session builder 0x7f6e8006c4d0
+[07/22/24 04:33:27:207][377304][I]:[remote:52.******.170:8443] destroy connection 0x7f6e80421e00
+[07/22/24 04:33:27:220][377304][I]:on set parameters doc='{"che.audio.mute_peer":[123,false]}', ret=0
+[07/22/24 04:33:27:220][377304][I]:on set parameters doc='{"rtc.video.mute_peer":[123,true]}', ret=0
+[07/22/24 04:33:27:220][377304][I]:[PEER] peer 123 is online
+[07/22/24 04:33:27:220][377304][I]:[LUR]: uid 123 is online
+[07/22/24 04:33:27:220][377304][A]:(00000027): LegacyEventProxy::onUserJoined->onUserJoined(this:0x1c1c550, uid:"123", elapsed:154)
+[07/22/24 04:33:27:220][377304][I]:[PEER] onFilterAudioFrame do peer 123 online
+[07/22/24 04:33:27:220][377304][I]:[PEER] onTracerFirstRemoteAudio uid 123 codec 122 lapse 155
+[07/22/24 04:33:27:220][377296][A]:(00000028): MediaNodeFactoryImpl::createAudioPcmDataSender(this:0x7f6e8002cfd0, void)
+[07/22/24 04:33:27:220][377304][W]:[ASM]: audio downlink resend 1
+[07/22/24 04:33:27:220][377296][A]:(00000029): AgoraService::createCustomAudioTrack(this:0x7f6e80015850, audioSource:0x1c17940)
+[07/22/24 04:33:27:220][377304][A]:(00000030): RemoteAudioTrackImpl::setRemoteAudioTrackStatisticsHelper(this:0x7f6e802efcc0, helper: 0x7f6e800ef380)
+[07/22/24 04:33:27:220][377304][A]:(00000031): RemoteAudioTrackImpl::attach(this:0x7f6e802efcc0, local_ssrc: 110, remote_ssrc: 2559082468, codec: 122)
+[07/22/24 04:33:27:220][377304][I]:[RAT]: Start building remote audio track,local_ssrc:0, remote_ssrc:-1735884828, codec:122, sync_group:agora_avsync_123
+[07/22/24 04:33:27:220][377304][I]:audio options factoryname ==chorus: vector===6
+[07/22/24 04:33:27:220][377304][I]:[ANP]: jitter_buffer_max_packets 100
+[07/22/24 04:33:27:220][377304][I]:[ANP]: neteq_jitter_max_target_delay 30
+[07/22/24 04:33:27:220][377304][W]:(neteq_impl.cc:151): NetEq config: sample_rate_hz=16000, enable_post_decode_vad=true, max_packets_in_buffer=100, max_delay_ms=2000, enable_fast_accelerate=false, enable_muted_state=true, enable_rtx_handling=false, target_level_optimization=false, aqm_voice_threshold=10, max_target_delay_ms=30, limit_probability=95, lower_limit_probability=97, filter_target_loss=6, max_filter_window=0, enable_expired_peak_dector=0, max_exceed_time_ms=500, max_filter_dup_num=3, neteq_version=M78, prebuffer=0, prebuffer_max_delay=0, targetlevel_offset_ms=85
+[07/22/24 04:33:27:220][377304][I]:(delay_manager.cc:660): target_delay_ms 30
+[07/22/24 04:33:27:220][377304][W]:(delay_manager.cc:671): limit_probability 95
+[07/22/24 04:33:27:220][377304][W]:(delay_manager.cc:682): lower_limit_probability 97
+[07/22/24 04:33:27:220][377304][I]:(audio_coding_module.cc:477): Created
+[07/22/24 04:33:27:220][377304][I]:(audio_receive_stream.cc:115): AudioReceiveStream: 2559082468
+[07/22/24 04:33:27:220][377304][I]:(audio_receive_stream.cc:416): AudioReceiveStream::ConfigureStream: {rtp: {remote_ssrc: 2559082468, local_ssrc: 0, transport_cc: off, nack: {rtp_history_ms: 0}, extensions: []}, rtcp_send_transport: (Transport), sync_group: agora_avsync_123}
+[07/22/24 04:33:27:220][377304][I]:(call.cc:1391): UpdateAggregateNetworkState: aggregate_state=up
+[07/22/24 04:33:27:220][377304][I]:(send_side_congestion_controller.cc:572): SignalNetworkState Up
+[07/22/24 04:33:27:220][377304][I]:[RAT]: receive stream 0x7f6e802f6210 has been created, ssrc -1735884828, uid 123, processor 0x7f6e80236f18
+[07/22/24 04:33:27:220][377304][I]:[AFC]: create extension audio filters, extensionTypeSet size:1
+[07/22/24 04:33:27:220][377322][I]:(paced_sender.cc:132): PacedSender resumed.
+[07/22/24 04:33:27:220][377304][I]:[AFC]: create extension audio filter, extension type:10002 extension_list size:1
+[07/22/24 04:33:27:220][377322][I]:(send_side_congestion_controller.cc:333): Bitrate estimate state changed, BWE: 300000 bps.
+[07/22/24 04:33:27:220][377304][I]:[AFC]: create extension audio filter, extension type:10002 internal_id:agora.builtin%%sound_position_io_agora_builtin_remote_user_playback filter:sound_position_io_agora_builtin_remote_user_playback auto_enable:0
+[07/22/24 04:33:27:220][377304][I]:[RAT]: to be added audio filter position:2, filter:sound_position_io_agora_builtin_remote_user_playback
+[07/22/24 04:33:27:220][377304][A]:(00000032):   IAudioFilterComposite::addAudioFilter(this:0x7f6e803bc860, filter: 0x7f6e802e7400)
+[07/22/24 04:33:27:220][377304][A]:(00000033):   RemoteAudioTrackImpl::addAudioFilter(this:0x7f6e802efcc0, filter: 0x7f6e802e7400, position: 2)
+[07/22/24 04:33:27:220][377304][I]:[audio] RemoteAudioTrackImpl::attach: remote track attached
+
+[07/22/24 04:33:27:220][377304][I]:[ASM]: of uid 123 ssrc 2559082468 track 0x7f6e802efcc0 is created by local user.
+[07/22/24 04:33:27:220][377304][A]:(00000034): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:27:220][377304][A]:(00000035):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:27:220][377304][I]:[ASM]: configAudioMixerIfNeeded: 3, 0
+[07/22/24 04:33:27:220][377304][W]:(audio_mixer_impl.cc:85): SetMaxMixerNumber: SetMaxMixerNumber: 3, 3
+[07/22/24 04:33:27:221][377304][I]:audio options factoryname ==chorus: vector===6
+[07/22/24 04:33:27:221][377304][A]:(00000036): AudioStreamManager::createAndAttachRemoteAudioTrack->onUserAudioTrackSubscribed(this:0x7f6e80266480, userId:"123", track:0x7f6e802efcc0)
+[07/22/24 04:33:27:221][377304][A]:(00000037): RemoteAudioTrackImpl::deliverPacket(this:0x7f6e802efcc0, void)
+[07/22/24 04:33:27:221][377304][I]:(audio_decoder_opus.cc:118): AudioDecoderOpus config.sample_rate 48000, config.num_channels 2, config.hw_accelerate_enabled 0
+[07/22/24 04:33:27:221][377304][I]:[AFC]: AudioFilterCompositeWithExtension name:pcm_source_composites, extensionTypeSet size:1
+[07/22/24 04:33:27:221][377304][I]:[AFC]: create extension audio filters, extensionTypeSet size:1
+[07/22/24 04:33:27:221][377304][I]:[AFC]: create extension audio filter, extension type:10003 extension_list size:2
+[07/22/24 04:33:27:221][377304][I]:[AFC]: create extension audio filter, extension type:10003 internal_id:agora.builtin%%sound_position_io_agora_builtin_pcm_source filter:sound_position_io_agora_builtin_pcm_source auto_enable:0
+[07/22/24 04:33:27:221][377304][I]:[AFC]: add extension audio filter:sound_position_io_agora_builtin_pcm_source to filter composite:pcm_source_composites
+[07/22/24 04:33:27:221][377304][A]:(00000038): IAudioFilterComposite::addAudioFilter(this:0x7f6e80426b40, filter: 0x7f6e80439230)
+[07/22/24 04:33:27:221][377304][I]:[AFC]: create extension audio filter, extension type:10003 internal_id:agora.builtin%%pitch_io_agora_builtin_pcm_source filter:pitch_io_agora_builtin_pcm_source auto_enable:0
+[07/22/24 04:33:27:221][377304][I]:[AFC]: add extension audio filter:pitch_io_agora_builtin_pcm_source to filter composite:pcm_source_composites
+[07/22/24 04:33:27:221][377304][A]:(00000039): IAudioFilterComposite::addAudioFilter(this:0x7f6e80426b40, filter: 0x7f6e8006cf50)
+[07/22/24 04:33:27:221][377304][I]:[AFC]: AudioFilterCompositeWithExtension name:pcm_source_sending_composites, extensionTypeSet size:1
+[07/22/24 04:33:27:221][377304][I]:[AFC]: create extension audio filters, extensionTypeSet size:1
+[07/22/24 04:33:27:221][377304][I]:[AFC]: create extension audio filter, extension type:10004 extension_list size:0
+[07/22/24 04:33:27:221][377304][I]:[AFC]: AudioFilterCompositeWithExtension name:pcm_source_local_playback_composites, extensionTypeSet size:1
+[07/22/24 04:33:27:221][377304][I]:[AFC]: create extension audio filters, extensionTypeSet size:1
+[07/22/24 04:33:27:221][377304][I]:[AFC]: create extension audio filter, extension type:10005 extension_list size:0
+[07/22/24 04:33:27:221][377296][A]:(00000040): LocalAudioTrackPcmImpl::setEnabled(this:0x1c1f1a0, enable:1)
+[07/22/24 04:33:27:221][377304][A]:(00000041): LocalAudioTrackImpl::setEnabled(this:0x1c1f1a0, enable: 1)
+[07/22/24 04:33:27:221][377296][A]:(00000042): LocalUserImpl::publishAudio(this:0x7f6e801a5210, audioTrack:0x1c1f1a0)
+[07/22/24 04:33:27:221][377304][I]:PublishStateManager::onPublishAudioStart 0 audio tracks was yet published
+[07/22/24 04:33:27:221][377304][I]:PublishStateManager::doAudioAction action kPublishStart, audio_current_state_: PUB_STATE_NO_PUBLISHED
+[07/22/24 04:33:27:221][377304][I]:PublishStateManager::doAudioAction PUB_STATE_NO_PUBLISHED => PUB_STATE_PUBLISHING
+[07/22/24 04:33:27:221][377304][I]:[LUR] onAudioPublishStateChanged oldState:1, newState:2, elapseSinceLastState:33
+[07/22/24 04:33:27:221][377304][I]:[ASM]: set audio uplink max fec frame: -1
+[07/22/24 04:33:27:221][377304][I]:[ASM]: set audio uplink fec strategy: 0
+[07/22/24 04:33:27:221][377304][W]:[ASM]: audio uplink resend 1
+[07/22/24 04:33:27:221][377304][W]:(neteq_impl.cc:151): NetEq config: sample_rate_hz=16000, enable_post_decode_vad=true, max_packets_in_buffer=0, max_delay_ms=2000, enable_fast_accelerate=false, enable_muted_state=true, enable_rtx_handling=false, target_level_optimization=false, aqm_voice_threshold=0, max_target_delay_ms=0, limit_probability=0, lower_limit_probability=0, filter_target_loss=0, max_filter_window=0, enable_expired_peak_dector=0, max_exceed_time_ms=0, max_filter_dup_num=0, neteq_version=M78, prebuffer=0, prebuffer_max_delay=0, targetlevel_offset_ms=0
+[07/22/24 04:33:27:221][377304][I]:(delay_manager.cc:660): target_delay_ms 0
+[07/22/24 04:33:27:221][377304][W]:(delay_manager.cc:671): limit_probability 0
+[07/22/24 04:33:27:221][377304][W]:(delay_manager.cc:682): lower_limit_probability 0
+[07/22/24 04:33:27:221][377304][I]:(audio_coding_module.cc:477): Created
+[07/22/24 04:33:27:221][377304][I]:(audio_send_stream.cc:155): AudioSendStream: 46170
+[07/22/24 04:33:27:221][377304][I]:(audio_send_stream.cc:231): AudioSendStream::ConfigureStream: {rtp: {ssrc: 46170, extensions: [], nack: {rtp_history_ms: 0}, c_name: }, send_transport: (Transport), min_bitrate_bps: 16000, max_bitrate_bps: 64000, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, payload_type: 122, format: {name: OPUSFB, clockrate_hz: 48000, num_channels: 1, parameters: {maxaveragebitrate: 64000, ptime: 10}}}}
+[07/22/24 04:33:27:221][377304][I]:(audio_encoder_opus.cc:109): AudioEncoderOpus config.sample_rate 48000, config.num_channels 1, config.bitrate_bps 64000, config.frame_size_ms 10, config.hw_accelerate_enabled 0, config.opus_celt_only 0
+[07/22/24 04:33:27:221][377304][I]:(audio_encoder_opus.cc:387): AudioEncoderOpusImpl::RecreateEncoderInstance {, opus create config: ( sample_rate: 48000, num_channels: 1, bitrate_bps: 64000, frame_size_ms: 10, fec_enabled: 0, dtx_enabled: 0, hw_accelerate_enabled: 0, opus_celt_only: 0) }
+[07/22/24 04:33:27:221][377304][I]:(call.cc:1391): UpdateAggregateNetworkState: aggregate_state=up
+[07/22/24 04:33:27:221][377304][I]:(send_side_congestion_controller.cc:572): SignalNetworkState Up
+[07/22/24 04:33:27:222][377304][I]:[ANTP]: Send stream 0x7f6e803b1070 started ssrc 46170
+[07/22/24 04:33:27:222][377322][I]: audio strategy:0 strategy ori:0 video re:1.000000 audio re:1.000000
+[07/22/24 04:33:27:222][377304][I]:[LUR] onMuteLocalAudio mute:0
+[07/22/24 04:33:27:222][377304][I]:PublishStateManager::onAudioMuted 0
+[07/22/24 04:33:27:222][377304][I]:PublishStateManager::doAudioAction action kPublishStart, audio_current_state_: PUB_STATE_PUBLISHING
+[07/22/24 04:33:27:222][377322][I]:(bitrate_allocator.cc:264): UpdateAllocationLimits : total_requested_min_bitrate: 27200bps, total_requested_padding_bitrate: 0bps, total_requested_max_bitrate: 75200bps
+[07/22/24 04:33:27:222][377304][I]:on set parameters doc='{"che.audio.has_published_stream":true}', ret=0
+[07/22/24 04:33:27:222][377304][A]:(00000043): LocalAudioTrackImpl::attach(this:0x1c1f1a0, sourceId: 2031737407)
+[07/22/24 04:33:27:222][377304][I]:[LATP]: attaching indirect
+[07/22/24 04:33:27:222][377304][I]:[APT]: name:pcm_source_2031737407 AudioNodeMixerSource::ctor(0x7f6e80304430)
+[07/22/24 04:33:27:222][377304][I]:[APT]: name:pcm_source_2031737407 set audio frame send delay 260 ms, init min buffered frames = 26, buffered pcm frame list size = 0
+[07/22/24 04:33:27:222][377304][I]:(audio_transport_impl.cc:194): SetUplinkAudioProcessingEnable enable = 1.
+[07/22/24 04:33:27:222][377318][I]:[ANMSS]: Add audio source 0x7f6e80304438, number of sources 1
+[07/22/24 04:33:27:222][377304][I]:[AMW]: Add audio source, start audio mix
+[07/22/24 04:33:27:222][377304][I]:[AMW]: Add audio source 0x7f6e80304438, number of sources 1
+[07/22/24 04:33:27:225][377304][I]:[remote:52.******.170:8443] receive server hello piece id: 0, 1/10, not complete
+[07/22/24 04:33:27:225][377304][A]:(00000044): RemoteAudioTrackImpl::onFirstFrameDecoded(this:0x7f6e802efcc0, void)
+[07/22/24 04:33:27:225][377304][E]:(push_resampler.cc:96): InitializeIfNeeded: resampler is using fixed ratio and src_sample_rate_hz:48000 dst_sample_rate_hz:8000
+[07/22/24 04:33:27:225][377296][A]:(00000045): LocalAudioTrackPcmImpl::ClearSenderBuffer(this:0x1c1f1a0, ClearSenderBuffer:)
+[07/22/24 04:33:27:225][377304][E]:(push_resampler.cc:96): InitializeIfNeeded: resampler is using fixed ratio and src_sample_rate_hz:48000 dst_sample_rate_hz:16000
+[07/22/24 04:33:27:225][377304][W]:[LATP]: ClearSenderBuffer 0.
+[07/22/24 04:33:27:225][377304][I]:[remote:52.******.170:8443] receive server hello piece id: 1, 2/10, not complete
+[07/22/24 04:33:27:225][377296][A]:(00000046): AudioPcmDataSenderImpl::sendAudioPcmData(this:0x1c17940, audio_data:0x1c1c670, capture_timestamp:0, samples_per_channel:160, bytes_per_sample:2, number_of_channels:1, sample_rate:16000)
+[07/22/24 04:33:27:225][377304][I]:[remote:52.******.170:8443] receive server hello piece id: 2, 3/10, not complete
+[07/22/24 04:33:27:225][377304][I]:[remote:52.******.170:8443] receive server hello piece id: 3, 4/10, not complete
+[07/22/24 04:33:27:225][377296][A]:(00000047): AudioPcmDataSenderImpl::sendAudioPcmData(this:0x1c17940, audio_data:0x1c1c670, capture_timestamp:0, samples_per_channel:160, bytes_per_sample:2, number_of_channels:1, sample_rate:16000)
+[07/22/24 04:33:27:225][377296][A]:(00000048): AudioPcmDataSenderImpl::sendAudioPcmData(this:0x1c17940, ... (ignore to avoid too many logs))
+[07/22/24 04:33:27:225][377304][I]:[remote:52.******.170:8443] receive server hello piece id: 4, 5/10, complete
+[07/22/24 04:33:27:226][377304][I]:[TM]: Evaluate cert chain size 3
+[07/22/24 04:33:27:226][377304][I]:[TM]: Add cert to cert store
+[07/22/24 04:33:27:226][377304][I]:[TM]: Add root certs to cert store
+[07/22/24 04:33:27:226][377304][I]:[TM]: Begin verify leaf cert
+[07/22/24 04:33:27:226][377304][I]:[TM]: End verify leaf cert, ret succ
+[07/22/24 04:33:27:226][377304][I]:[remote:52.******.170:8443] current in 0th connect, send client response 10957027|ack:5342800, early data: 346, tags: , CID: 11590737894019811044
+[07/22/24 04:33:27:226][377304][I]:[remote:52.******.170:8443] set congestion control type: BBRv1 pacing: true, initial cwin in pkts: 21
+[07/22/24 04:33:27:226][377304][I]:[remote:52.******.170:8443] set loss detection type: AdaptiveSequence
+[07/22/24 04:33:27:226][377304][I]:[remote:52.******.170:8443] create connection 0x7f6e804d4410, self initial seq: 10957028, peer initial seq: 5342801, initial rtt: 158ms, version: Unknown, forged protocol: 0, connection_id: 11590737894019811044, perspective: Perspective::kClient, cc: BBR
+[07/22/24 04:33:27:226][377304][I]:[remote:52.******.170:8443] create session 0x7f6e804dd610
+[07/22/24 04:33:27:226][377304][I]:[ap-17] connected to 52.******.170:8443, transport type = 5
+[07/22/24 04:33:27:226][377304][I]:[remote:52.******.170:8443] destroy session 0x7f6e804dd610
+[07/22/24 04:33:27:226][377304][I]:[remote:52.******.170:8443] start last ack, duration: 2000 ms
+[07/22/24 04:33:27:226][377304][I]:destroy dangling client connection 0x7f6e803c6e00
+[07/22/24 04:33:27:226][377304][I]:destroy session builder 0x7f6e803b8eb0
+[07/22/24 04:33:27:226][377304][I]:[remote:52.******.170:8443] destroy connection 0x7f6e804d4410
+[07/22/24 04:33:27:232][377318][E]:(push_resampler.cc:103): InitializeIfNeeded: resampler is not using fixed ratio and src_sample_rate_hz:48000 dst_sample_rate_hz:48000
+[07/22/24 04:33:27:232][377318][I]:audio_processing_impl.cc:1210 - [AEC] handle the non-causal when it's the first time get the capture data.
+[07/22/24 04:33:27:232][377318][I]:ains not supports on current arch
+[07/22/24 04:33:27:232][377318][I]:NSNG: strategy 0, enhai 1.000000, enhsta 2.000000, stabound 0.050000, gainboost 2.000000, finalmask 0.030000
+[07/22/24 04:33:27:232][377322][I]:(rtp_sender_audio.cc:414): First audio RTP packet sent to pacer
+[07/22/24 04:33:27:240][377304][A]:(00000049): RemoteAudioTrackImpl::deliverPacket(this:0x7f6e802efcc0, void)
+[07/22/24 04:33:27:241][377304][I]:[remote:35.******.187:8443] receive server hello piece id: 4, 1/10, not complete
+[07/22/24 04:33:27:242][377304][I]:[remote:35.******.187:8443] receive server hello piece id: 5, 2/10, not complete
+[07/22/24 04:33:27:242][377304][I]:[remote:35.******.187:8443] receive server hello piece id: 6, 3/10, not complete
+[07/22/24 04:33:27:242][377304][I]:[remote:35.******.187:8443] receive server hello piece id: 7, 4/10, not complete
+[07/22/24 04:33:27:242][377304][I]:[remote:35.******.187:8443] receive server hello piece id: 0, 5/10, complete
+[07/22/24 04:33:27:242][377304][I]:[TM]: Evaluate cert chain size 3
+[07/22/24 04:33:27:242][377304][I]:[TM]: Add cert to cert store
+[07/22/24 04:33:27:243][377304][I]:[TM]: Add root certs to cert store
+[07/22/24 04:33:27:243][377304][I]:[TM]: Begin verify leaf cert
+[07/22/24 04:33:27:243][377304][I]:[TM]: End verify leaf cert, ret succ
+[07/22/24 04:33:27:243][377304][I]:[remote:35.******.187:8443] current in 0th connect, send client response 5481155|ack:4847766, early data: 505, tags: , CID: 7451410250877350028
+[07/22/24 04:33:27:243][377304][I]:[remote:35.******.187:8443] set congestion control type: BBRv1 pacing: true, initial cwin in pkts: 22
+[07/22/24 04:33:27:243][377304][I]:[remote:35.******.187:8443] set loss detection type: AdaptiveSequence
+[07/22/24 04:33:27:243][377304][I]:[remote:35.******.187:8443] create connection 0x7f6e804d4230, self initial seq: 5481156, peer initial seq: 4847767, initial rtt: 185ms, version: Unknown, forged protocol: 0, connection_id: 7451410250877350028, perspective: Perspective::kClient, cc: BBRv1
+[07/22/24 04:33:27:243][377304][I]:[remote:35.******.187:8443] create session 0x7f6e803b93b0
+[07/22/24 04:33:27:243][377304][I]:[ap-6] connected to 35.******.187:8443, transport type = 5
+[07/22/24 04:33:27:243][377304][I]:[remote:35.******.187:8443] destroy session 0x7f6e803b93b0
+[07/22/24 04:33:27:243][377304][I]:[remote:35.******.187:8443] start last ack, duration: 2000 ms
+[07/22/24 04:33:27:243][377304][I]:destroy dangling client connection 0x7f6e800ca2c0
+[07/22/24 04:33:27:243][377304][I]:destroy session builder 0x7f6e8006dfc0
+[07/22/24 04:33:27:243][377304][I]:[remote:35.******.187:8443] destroy connection 0x7f6e804d4230
+[07/22/24 04:33:27:254][377304][I]:[remote:35.******.187:8443] receive server hello piece id: 0, 1/10, not complete
+[07/22/24 04:33:27:254][377304][I]:[remote:35.******.187:8443] receive server hello piece id: 1, 2/10, not complete
+[07/22/24 04:33:27:254][377304][I]:[remote:35.******.187:8443] receive server hello piece id: 2, 3/10, not complete
+[07/22/24 04:33:27:254][377304][I]:[remote:35.******.187:8443] receive server hello piece id: 3, 4/10, not complete
+[07/22/24 04:33:27:254][377304][I]:[remote:35.******.187:8443] receive server hello piece id: 4, 5/10, complete
+[07/22/24 04:33:27:255][377304][I]:[TM]: Evaluate cert chain size 3
+[07/22/24 04:33:27:255][377304][I]:[TM]: Add cert to cert store
+[07/22/24 04:33:27:255][377304][I]:[TM]: Add root certs to cert store
+[07/22/24 04:33:27:255][377304][I]:[TM]: Begin verify leaf cert
+[07/22/24 04:33:27:255][377304][I]:[TM]: End verify leaf cert, ret succ
+[07/22/24 04:33:27:255][377304][I]:[remote:35.******.187:8443] current in 0th connect, send client response 9520300|ack:8863466, early data: 346, tags: , CID: 6822173684712611240
+[07/22/24 04:33:27:255][377304][I]:[remote:35.******.187:8443] set congestion control type: BBRv1 pacing: true, initial cwin in pkts: 22
+[07/22/24 04:33:27:255][377304][I]:[remote:35.******.187:8443] set loss detection type: AdaptiveSequence
+[07/22/24 04:33:27:255][377304][I]:[remote:35.******.187:8443] create connection 0x7f6e804d4230, self initial seq: 9520301, peer initial seq: 8863467, initial rtt: 187ms, version: Unknown, forged protocol: 0, connection_id: 6822173684712611240, perspective: Perspective::kClient, cc: BBRv1
+[07/22/24 04:33:27:255][377304][I]:[remote:35.******.187:8443] create session 0x7f6e804e2490
+[07/22/24 04:33:27:255][377304][I]:[ap-17] connected to 35.******.187:8443, transport type = 5
+[07/22/24 04:33:27:255][377304][I]:[remote:35.******.187:8443] destroy session 0x7f6e804e2490
+[07/22/24 04:33:27:255][377304][I]:[remote:35.******.187:8443] start last ack, duration: 2000 ms
+[07/22/24 04:33:27:255][377304][I]:destroy dangling client connection 0x7f6e803c6780
+[07/22/24 04:33:27:255][377304][I]:destroy session builder 0x7f6e803ba6a0
+[07/22/24 04:33:27:255][377304][I]:[remote:35.******.187:8443] destroy connection 0x7f6e804d4230
+[07/22/24 04:33:27:259][377304][I]:[LUR] onMuteLocalAudio mute:0
+[07/22/24 04:33:27:259][377304][I]:PublishStateManager::onAudioMuted 0
+[07/22/24 04:33:27:259][377304][I]:PublishStateManager::doAudioAction action kPublishStart, audio_current_state_: PUB_STATE_PUBLISHING
+[07/22/24 04:33:27:259][377304][I]:PublishStateManager::onAudioTrackFirstEnabled
+[07/22/24 04:33:27:259][377304][I]:PublishStateManager::doAudioAction action kPublishStart, audio_current_state_: PUB_STATE_PUBLISHING
+[07/22/24 04:33:27:259][377304][I]:PublishStateManager::onPublishAudioSuccess 1 audio tracks was yet published
+[07/22/24 04:33:27:259][377304][I]:PublishStateManager::doAudioAction action kPublishDone, audio_current_state_: PUB_STATE_PUBLISHING
+[07/22/24 04:33:27:259][377304][I]:PublishStateManager::doAudioAction PUB_STATE_PUBLISHING => PUB_STATE_PUBLISHED
+[07/22/24 04:33:27:259][377304][I]:[LUR] onAudioPublishStateChanged oldState:2, newState:3, elapseSinceLastState:38
+[07/22/24 04:33:27:259][377304][A]:(00000050): AudioStreamManager::PollTrackInfoAndNotify->onFirstRemoteAudioFrame(this:0x7f6e80266480, userId:123, track: 0x7f6e802efcc0, elapsed:155)
+[07/22/24 04:33:27:259][377304][A]:(00000051): AudioStreamManager::PollTrackInfoAndNotify->onUserAudioTrackStateChanged(this:0x7f6e80266480, userId:123, track:0x7f6e802efcc0, state:1, reason:6, elapsed:155)
+[07/22/24 04:33:27:259][377304][A]:(00000052): AudioStreamManager::PollTrackInfoAndNotify->onFirstRemoteAudioDecoded(this:0x7f6e80266480, userId:123,  elapsed:160)
+[07/22/24 04:33:27:259][377304][A]:(00000053): AudioStreamManager::PollTrackInfoAndNotify->onUserAudioTrackStateChanged(this:0x7f6e80266480, userId:123, track:0x7f6e802efcc0, state:2, reason:6, elapsed:160)
+[07/22/24 04:33:27:259][377304][I]:[ASM]: no publish stat message received from peer, postpone report first frame drawn event
+[07/22/24 04:33:27:264][377304][A]:(00000054): RemoteAudioTrackImpl::deliverPacket(this:0x7f6e802efcc0, void)
+[07/22/24 04:33:27:276][377304][I]:[remote:13.******.235:8443] start 1th connect, send client hello 5613000|syn, early data: 0, tags: SNI :31332d313234...(28), PDMD:, CPTO:4e4f4e432000...(129), CCRT:b5880f7ff03f...(24), CID: 910582358444454789
+[07/22/24 04:33:27:280][377304][A]:(00000055): RemoteAudioTrackImpl::deliverPacket(this:0x7f6e802efcc0, ... (ignore to avoid too many logs))
+[07/22/24 04:33:27:294][377304][I]:[ap-17] response from 3.******.78:8443 success, opid: 1138069232, service_id: 17, uri: 2
+[07/22/24 04:33:27:294][377304][I]:[vocs] update wan ip:106.******.34, ipType:0
+[07/22/24 04:33:27:294][377304][I]:[vocs/u] **responsed from 3.******.78:8443, 3 vos: 124.******.138, 119.******.143, 60.******.36,  elapsed 229, server ts 1721622807255, wan ip 106.******.34
+[07/22/24 04:33:27:294][377304][I]:[vos] added server: 119.******.143:4052
+[07/22/24 04:33:27:294][377304][I]:[vos] added server: 60.******.36:4066
+[07/22/24 04:33:27:294][377304][I]:[remote:3.******.78:8443] destroy session 0x7f6e80300910
+[07/22/24 04:33:27:294][377304][I]:[remote:3.******.78:8443] start last ack, duration: 2000 ms
+[07/22/24 04:33:27:294][377304][I]:destroy session builder 0x7f6e80238ab0
+[07/22/24 04:33:27:294][377304][I]:[remote:3.******.78:8443] destroy connection 0x7f6e80439470
+[07/22/24 04:33:27:310][377304][I]:[remote:199.******.132:8443] start 1th connect, send client hello 4731195|syn, early data: 0, tags: SNI :3139392d3139...(28), PDMD:, CPTO:4e4f4e432000...(129), CID: 6999011523129508462
+[07/22/24 04:33:27:332][377318][E]:(push_resampler.cc:96): InitializeIfNeeded: resampler is using fixed ratio and src_sample_rate_hz:16000 dst_sample_rate_hz:48000
+[07/22/24 04:33:27:388][377304][I]:[cap] synchronise capability set with seq: 1
+[07/22/24 04:33:27:396][377304][I]:[cap] Receive the capability with seq: 2
+[07/22/24 04:33:27:396][377304][I]:[cap] OnRemoteCapabilitySetChanged, capability_set size: 9
+[07/22/24 04:33:27:396][377304][I]:[cap] Received capability set ack seq: 1
+[07/22/24 04:33:27:416][377304][I]:[xla] first remote audio frame uid:123, first:1, valid:1, mute:0, stage:(launch:2, joined:123, recved:155, decoded:160)
+[07/22/24 04:33:27:416][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:33:27:416][377304][I]:[PEER] peer 123 has published audio
+[07/22/24 04:33:27:416][377304][I]:[ASM]: uid:123 mute:0 audio
+[07/22/24 04:33:27:416][377304][A]:(00000056): AudioStreamManager::onMuteRemoteAudio->onUserInfoUpdated(this:0x7f6e80266480, userId:"123", msg:0, mute:0)
+[07/22/24 04:33:27:416][377304][I]:[PEER] peer 123 has enabled video
+[07/22/24 04:33:27:416][377304][I]:[VSM]: onEnableRemoteVideo (123, 1)
+[07/22/24 04:33:27:416][377304][A]:(00000057): VideoStreamManager::onEnableRemoteVideo->onUserInfoUpdated(this:0x7f6e8025ee80, uid:"123", msg:4, enable:1)
+[07/22/24 04:33:27:416][377304][I]:[PEER] peer 123 has enabled local video
+[07/22/24 04:33:27:416][377304][I]:[VSM]: onEnableRemoteLocalVideo (123, 1)
+[07/22/24 04:33:27:416][377304][A]:(00000058): VideoStreamManager::onEnableRemoteLocalVideo->onUserInfoUpdated(this:0x7f6e8025ee80, uid:"123", msg:8, enable:1)
+[07/22/24 04:33:27:416][377304][I]:[PEER] peer 123 has unpublished video
+[07/22/24 04:33:27:416][377304][I]:[VSM]: onMuteRemoteVideo (123, 1)
+[07/22/24 04:33:27:416][377304][A]:(00000059): VideoStreamManager::onMuteRemoteVideo->onUserInfoUpdated(this:0x7f6e8025ee80, uid:"123", msg:1, mute:1)
+[07/22/24 04:33:27:416][377304][I]:[tactics] update max peer down lost val : 0
+
+[07/22/24 04:33:27:456][377304][I]:[VSM]: user parameter enable_hw_decoder : 
+[07/22/24 04:33:27:456][377304][I]:[VSM]: user parameter hardware_decoding : -1
+[07/22/24 04:33:27:456][377304][I]:[VSM]: user parameter value found for enable_video_freeze_diagnose : true
+[07/22/24 04:33:27:456][377304][I]:[VSM]: user parameter value found for retrans_detect_enable : false
+[07/22/24 04:33:27:456][377304][I]:[VSM]: user parameter value found for use_sent_ts_enable : true
+[07/22/24 04:33:27:456][377304][I]:[VSM]: no TDS value found for switch_soft_decoder_threshold
+[07/22/24 04:33:27:456][377304][I]:[VSM]: no TDS value found for enable_parser_reject
+[07/22/24 04:33:27:456][377304][I]:[VSM]: no TDS value found for enable_hw_decoder
+[07/22/24 04:33:27:456][377304][I]:[VSM]: no TDS value found for enable_background_hw_decode
+[07/22/24 04:33:27:456][377304][I]:[VSM]: no TDS value found for che.hardware_decoding
+[07/22/24 04:33:27:456][377304][I]:[VSM]: no TDS value found for tds_retrans_detect_enable
+[07/22/24 04:33:27:456][377304][I]:[VSM]: no TDS value found for tds_use_sent_ts_enable
+[07/22/24 04:33:27:456][377304][I]:[VSM]: user parameter value found for packet_buffer_size : 2048
+[07/22/24 04:33:27:456][377304][I]:[VSM]: no TDS value found for packet_buffer_size
+[07/22/24 04:33:27:456][377304][I]:[VSM]: user parameter value found for enable_vpr : true
+[07/22/24 04:33:27:456][377304][I]:[VSM]: user parameter value found for che.video.vpr.init_size : 1
+[07/22/24 04:33:27:456][377304][I]:[VSM]: user parameter value found for che.video.vpr.max_size : 3
+[07/22/24 04:33:27:456][377304][I]:[VSM]: user parameter value found for che.video.vpr.frozen_ms_thres : 200
+[07/22/24 04:33:27:456][377304][I]:[VSM]: user parameter value found for che.video.vpr.frozen_rate_thres : 5
+[07/22/24 04:33:27:456][377304][I]:[VSM]: user parameter value found for che.video.vpr.method : 0
+[07/22/24 04:33:27:456][377304][I]:[VSM]: user parameter value found for che.video.vpr.vpr_adaptive_thres : 50
+[07/22/24 04:33:27:456][377304][W]:[diag] Receive debug enabled 1 from config service
+[07/22/24 04:33:27:456][377304][I]:on set parameters doc='{"rtc.video.max_payload_size":1270}', ret=-4
+[07/22/24 04:33:27:713][377304][I]:[remote:13.******.235:8443] start 2th connect, send client hello 5613000|syn, early data: 0, tags: SNI :31332d313234...(28), PDMD:, CPTO:4e4f4e432000...(129), CCRT:b5880f7ff03f...(24), CID: 910582358444454789
+[07/22/24 04:33:27:729][377304][I]:[remote:199.******.132:8443] start 2th connect, send client hello 4731195|syn, early data: 0, tags: SNI :3139392d3139...(28), PDMD:, CPTO:4e4f4e432000...(129), CID: 6999011523129508462
+[07/22/24 04:33:27:756][377304][I]:[VSM]: user parameter enable_hw_decoder : 
+[07/22/24 04:33:27:756][377304][I]:[VSM]: user parameter hardware_decoding : -1
+[07/22/24 04:33:27:756][377304][I]:[VSM]: user parameter value found for enable_video_freeze_diagnose : true
+[07/22/24 04:33:27:756][377304][I]:[VSM]: user parameter value found for retrans_detect_enable : false
+[07/22/24 04:33:27:756][377304][I]:[VSM]: user parameter value found for use_sent_ts_enable : true
+[07/22/24 04:33:27:756][377304][I]:[VSM]: no TDS value found for switch_soft_decoder_threshold
+[07/22/24 04:33:27:756][377304][I]:[VSM]: no TDS value found for enable_parser_reject
+[07/22/24 04:33:27:756][377304][I]:[VSM]: no TDS value found for enable_hw_decoder
+[07/22/24 04:33:27:756][377304][I]:[VSM]: no TDS value found for enable_background_hw_decode
+[07/22/24 04:33:27:756][377304][I]:[VSM]: no TDS value found for che.hardware_decoding
+[07/22/24 04:33:27:756][377304][I]:[VSM]: no TDS value found for tds_retrans_detect_enable
+[07/22/24 04:33:27:756][377304][I]:[VSM]: no TDS value found for tds_use_sent_ts_enable
+[07/22/24 04:33:27:756][377304][I]:[VSM]: user parameter value found for packet_buffer_size : 2048
+[07/22/24 04:33:27:756][377304][I]:[VSM]: no TDS value found for packet_buffer_size
+[07/22/24 04:33:27:756][377304][I]:[VSM]: user parameter value found for enable_vpr : true
+[07/22/24 04:33:27:756][377304][I]:[VSM]: user parameter value found for che.video.vpr.init_size : 1
+[07/22/24 04:33:27:756][377304][I]:[VSM]: user parameter value found for che.video.vpr.max_size : 3
+[07/22/24 04:33:27:756][377304][I]:[VSM]: user parameter value found for che.video.vpr.frozen_ms_thres : 200
+[07/22/24 04:33:27:756][377304][I]:[VSM]: user parameter value found for che.video.vpr.frozen_rate_thres : 5
+[07/22/24 04:33:27:756][377304][I]:[VSM]: user parameter value found for che.video.vpr.method : 0
+[07/22/24 04:33:27:756][377304][I]:[VSM]: user parameter value found for che.video.vpr.vpr_adaptive_thres : 50
+[07/22/24 04:33:27:756][377304][W]:[diag] Receive debug enabled 1 from config service
+[07/22/24 04:33:27:756][377304][I]:on set parameters doc='{"rtc.video.max_payload_size":1290}', ret=-4
+[07/22/24 04:33:27:756][377304][I]:[remote:124.******.138:4060] Probe MTU to remote finished. Current MTU: 1350 Target MTU: 1350
+[07/22/24 04:33:28:653][377304][I]:[remote:13.******.235:8443] start 3th connect, send client hello 5613000|syn, early data: 0, tags: SNI :31332d313234...(28), PDMD:, CPTO:4e4f4e432000...(129), CCRT:b5880f7ff03f...(24), CID: 910582358444454789
+[07/22/24 04:33:28:673][377304][I]:[remote:199.******.132:8443] start 3th connect, send client hello 4731195|syn, early data: 0, tags: SNI :3139392d3139...(28), PDMD:, CPTO:4e4f4e432000...(129), CID: 6999011523129508462
+[07/22/24 04:33:29:016][377304][I]:[RCC]: Create counter rule for space id: 140112571598880
+[07/22/24 04:33:29:188][377304][I]:[VosNtp0] send ntp server time request, cnt = 2
+[07/22/24 04:33:29:258][377304][A]:(00000060): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:29:258][377304][A]:(00000061):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:29:258][377304][I]:[tactics] rtt:70 lost frame rate:1 continus lost:0 jitter:80
+[07/22/24 04:33:30:150][377304][I]:[remote:13.******.235:8443] start 4th connect, send client hello 5613000|syn, early data: 0, tags: SNI :31332d313234...(28), PDMD:, CPTO:4e4f4e432000...(129), CCRT:b5880f7ff03f...(24), CID: 910582358444454789
+[07/22/24 04:33:30:189][377304][I]:on bill stats upstream width 0 height 0 local flag 3
+[07/22/24 04:33:30:415][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:33:30:642][377304][I]:[remote:199.******.132:8443] start 4th connect, send client hello 4731195|syn, early data: 0, tags: SNI :3139392d3139...(28), PDMD:, CPTO:4e4f4e432000...(129), CID: 6999011523129508462
+[07/22/24 04:33:30:903][377304][I]:[remote:199.******.132:8443] receive server hello piece id: 0, 1/10, not complete
+[07/22/24 04:33:30:903][377304][I]:[remote:199.******.132:8443] receive server hello piece id: 1, 2/10, not complete
+[07/22/24 04:33:31:068][377304][I]:get_default_route ipv6 not exist
+[07/22/24 04:33:31:068][377304][I]:localIp4:100.100.0.6 localIp6:fd0f:1dde:e0a3:0:b84f:89ff:fec9:6008 gw4:100.100.0.251 gw6:
+[07/22/24 04:33:31:458][377304][A]:(00000062): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:31:458][377304][A]:(00000063):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:31:458][377304][A]:(00000064): RemoteAudioTrackImpl::onAudioFrozenStatusChange(this:0x7f6e802efcc0, void)
+[07/22/24 04:33:31:458][377304][I]:[tactics] rtt:72 lost frame rate:2 continus lost:0 jitter:120
+[07/22/24 04:33:31:657][377304][A]:(00000065): AudioStreamManager::PollTrackInfoAndNotify->onUserAudioTrackStateChanged(this:0x7f6e80266480, userId:123, track:0x7f6e802efcc0, state:3, reason:1, elapsed:4393)
+[07/22/24 04:33:32:015][377304][I]:[RS]: **report stats: seq: 33, report list size 2, tx/rx: 5868/1488, cache size: 0
+[07/22/24 04:33:32:188][377322][I]:(bitrate_allocator.cc:161): Current BWE 1691000
+[07/22/24 04:33:33:068][377304][I]:get_default_route ipv6 not exist
+[07/22/24 04:33:33:068][377304][I]:localIp4:100.100.0.6 localIp6:fd0f:1dde:e0a3:0:b84f:89ff:fec9:6008 gw4:100.100.0.251 gw6:
+[07/22/24 04:33:33:188][377304][I]:[VosNtp0] send ntp server time request, cnt = 2
+[07/22/24 04:33:33:239][377304][I]:[remote:13.******.235:8443] start 5th connect, send client hello 5613000|syn, early data: 0, tags: SNI :31332d313234...(28), PDMD:, CPTO:4e4f4e432000...(129), CCRT:b5880f7ff03f...(24), CID: 910582358444454789
+[07/22/24 04:33:33:415][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:33:33:458][377304][A]:(00000066): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:33:458][377304][A]:(00000067):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:33:458][377304][A]:(00000068): RemoteAudioTrackImpl::onAudioFrozenStatusChange(this:0x7f6e802efcc0, void)
+[07/22/24 04:33:33:458][377304][I]:[tactics] rtt:73 lost frame rate:0 continus lost:0 jitter:64
+[07/22/24 04:33:33:657][377304][A]:(00000069): AudioStreamManager::PollTrackInfoAndNotify->onUserAudioTrackStateChanged(this:0x7f6e80266480, userId:123, track:0x7f6e802efcc0, state:2, reason:2, elapsed:6393)
+[07/22/24 04:33:33:657][377304][I]:[xla] first remote audio frame uid:123, first:0, valid:1, mute:0, stage:(launch:2, joined:123, recved:155, decoded:6393)
+[07/22/24 04:33:34:051][377304][I]:[remote:199.******.132:8443] current in 5th connect, send client response 0, early data: 0, tags: REXF:
+[07/22/24 04:33:35:068][377304][I]:get_default_route ipv6 not exist
+[07/22/24 04:33:35:068][377304][I]:localIp4:100.100.0.6 localIp6:fd0f:1dde:e0a3:0:b84f:89ff:fec9:6008 gw4:100.100.0.251 gw6:
+[07/22/24 04:33:35:458][377304][A]:(00000070): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:35:458][377304][A]:(00000071):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:35:458][377304][A]:(00000072): RemoteAudioTrackImpl::onAudioFrozenStatusChange(this:0x7f6e802efcc0, void)
+[07/22/24 04:33:35:458][377304][I]:[tactics] rtt:73 lost frame rate:3 continus lost:0 jitter:120
+[07/22/24 04:33:35:658][377304][A]:(00000073): AudioStreamManager::PollTrackInfoAndNotify->onUserAudioTrackStateChanged(this:0x7f6e80266480, userId:123, track:0x7f6e802efcc0, state:3, reason:1, elapsed:8393)
+[07/22/24 04:33:36:419][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:33:37:067][377304][I]:get_default_route ipv6 not exist
+[07/22/24 04:33:37:067][377304][I]:localIp4:100.100.0.6 localIp6:fd0f:1dde:e0a3:0:b84f:89ff:fec9:6008 gw4:100.100.0.251 gw6:
+[07/22/24 04:33:37:458][377304][A]:(00000074): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:37:458][377304][A]:(00000075):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:37:458][377304][I]:[tactics] rtt:72 lost frame rate:3 continus lost:0 jitter:121
+[07/22/24 04:33:39:189][377322][I]:(bitrate_allocator.cc:161): Current BWE 1691000
+[07/22/24 04:33:39:419][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:33:39:458][377304][A]:(00000076): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:39:458][377304][A]:(00000077):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:39:458][377304][A]:(00000078): RemoteAudioTrackImpl::onAudioFrozenStatusChange(this:0x7f6e802efcc0, void)
+[07/22/24 04:33:39:458][377304][I]:[tactics] rtt:73 lost frame rate:0 continus lost:0 jitter:75
+[07/22/24 04:33:39:658][377304][A]:(00000079): AudioStreamManager::PollTrackInfoAndNotify->onUserAudioTrackStateChanged(this:0x7f6e80266480, userId:123, track:0x7f6e802efcc0, state:2, reason:2, elapsed:12393)
+[07/22/24 04:33:39:658][377304][I]:[xla] first remote audio frame uid:123, first:0, valid:1, mute:0, stage:(launch:2, joined:123, recved:155, decoded:12393)
+[07/22/24 04:33:39:703][377304][I]:[remote:13.******.235:8443] start 6th connect, send client hello 5613000|syn, early data: 0, tags: SNI :31332d313234...(28), PDMD:, CPTO:4e4f4e432000...(129), CCRT:b5880f7ff03f...(24), CID: 910582358444454789
+[07/22/24 04:33:39:779][377304][I]:[remote:199.******.132:8443] current in 6th connect, send client response 0, early data: 0, tags: REXF:
+[07/22/24 04:33:41:189][377304][I]:[VosNtp0] send ntp server time request, cnt = 2
+[07/22/24 04:33:41:458][377304][A]:(00000080): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:41:458][377304][A]:(00000081):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:41:458][377304][A]:(00000082): RemoteAudioTrackImpl::onAudioFrozenStatusChange(this:0x7f6e802efcc0, void)
+[07/22/24 04:33:41:458][377304][I]:[tactics] rtt:77 lost frame rate:6 continus lost:0 jitter:130
+[07/22/24 04:33:41:658][377304][A]:(00000083): AudioStreamManager::PollTrackInfoAndNotify->onUserAudioTrackStateChanged(this:0x7f6e80266480, userId:123, track:0x7f6e802efcc0, state:3, reason:1, elapsed:14393)
+[07/22/24 04:33:42:188][377304][I]:on bill stats upstream width 0 height 0 local flag 3
+[07/22/24 04:33:42:420][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:33:43:458][377304][A]:(00000084): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:43:458][377304][A]:(00000085):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:43:458][377304][I]:[tactics] rtt:82 lost frame rate:4 continus lost:0 jitter:123
+[07/22/24 04:33:45:065][377304][I]:[ATW]: Audio statistics - play count: playout count = 1800 signal level: far_in = 73
+[07/22/24 04:33:45:068][377304][I]:get_default_route ipv6 not exist
+[07/22/24 04:33:45:068][377304][I]:localIp4:100.100.0.6 localIp6:fd0f:1dde:e0a3:0:b84f:89ff:fec9:6008 gw4:100.100.0.251 gw6:
+[07/22/24 04:33:45:420][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:33:45:658][377304][A]:(00000086): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:45:658][377304][A]:(00000087):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:45:658][377304][I]:[tactics] rtt:82 lost frame rate:6 continus lost:0 jitter:166
+[07/22/24 04:33:46:189][377322][I]:(bitrate_allocator.cc:161): Current BWE 1691000
+[07/22/24 04:33:47:076][377321][I]:(audio_device_buffer.cc:609): [PLAY: 10010msec, 16kHz] callbacks: 1001, samples: 160160, rate: 16000, rate diff: 0%, level: 750
+[07/22/24 04:33:47:076][377321][I]:(audio_device_buffer.cc:633): AStatistics-play, apm cost:54/51/58/106/128/106/109/89/110/110(avg 92, max 348), sys cost:9946/9948/9908/9907/9874/9905/9890/9908/9884/9891(avg 9906, max 11488) 
+[07/22/24 04:33:47:658][377304][A]:(00000088): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:47:658][377304][A]:(00000089):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:47:658][377304][I]:[tactics] rtt:87 lost frame rate:51 continus lost:0 jitter:750
+[07/22/24 04:33:48:419][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:33:49:419][377304][I]:[tactics] update max peer down lost val : 25
+
+[07/22/24 04:33:49:658][377304][A]:(00000090): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:49:658][377304][A]:(00000091):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:49:658][377304][I]:[tactics] rtt:92 lost frame rate:52 continus lost:0 jitter:710
+[07/22/24 04:33:50:520][377304][I]:[remote:13.******.235:8443] start 7th connect, send client hello 5613000|syn, early data: 0, tags: SNI :31332d313234...(28), PDMD:, CPTO:4e4f4e432000...(129), CCRT:b5880f7ff03f...(24), CID: 910582358444454789
+[07/22/24 04:33:51:379][377322][I]:(bitrate_allocator.cc:161): Current BWE 1690799
+[07/22/24 04:33:51:419][377304][I]:[tactics] update max peer down lost val : 8
+
+[07/22/24 04:33:51:419][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:33:51:857][377304][A]:(00000092): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:51:857][377304][A]:(00000093):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:51:858][377304][I]:[tactics] rtt:116 lost frame rate:45 continus lost:0 jitter:843
+[07/22/24 04:33:53:068][377304][I]:get_default_route ipv6 not exist
+[07/22/24 04:33:53:068][377304][I]:localIp4:100.100.0.6 localIp6:fd0f:1dde:e0a3:0:b84f:89ff:fec9:6008 gw4:100.100.0.251 gw6:
+[07/22/24 04:33:53:408][377304][I]:[tactics] update max peer down lost val : 27
+
+[07/22/24 04:33:53:858][377304][A]:(00000094): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:53:858][377304][A]:(00000095):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:53:858][377304][I]:[tactics] rtt:116 lost frame rate:55 continus lost:0 jitter:590
+[07/22/24 04:33:54:188][377304][I]:on bill stats upstream width 0 height 0 local flag 3
+[07/22/24 04:33:54:411][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:33:54:436][377304][I]:[remote:199.******.132:8443] current in 7th connect, send client response 0, early data: 0, tags: REXF:
+[07/22/24 04:33:54:693][377304][I]:[remote:199.******.132:8443] Recieve RST
+[07/22/24 04:33:54:693][377304][I]:[remote:199.******.132:8443] Recieve RST
+[07/22/24 04:33:55:419][377304][I]:[tactics] update max peer down lost val : 6
+
+[07/22/24 04:33:55:857][377304][A]:(00000096): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:55:857][377304][A]:(00000097):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:55:857][377304][I]:[tactics] rtt:108 lost frame rate:35 continus lost:0 jitter:465
+[07/22/24 04:33:56:688][377322][I]:(bitrate_allocator.cc:161): Current BWE 1690985
+[07/22/24 04:33:57:086][377321][I]:(audio_device_buffer.cc:609): [PLAY: 10010msec, 16kHz] callbacks: 1001, samples: 160160, rate: 16000, rate diff: 0%, level: 197
+[07/22/24 04:33:57:086][377321][I]:(audio_device_buffer.cc:633): AStatistics-play, apm cost:51/69/72/88/89/84/82/67/52/60(avg 71, max 169), sys cost:9945/9915/9914/9907/9902/9904/9899/9932/9952/9927(avg 9920, max 12065) 
+[07/22/24 04:33:57:189][377304][I]:[VosNtp0] send ntp server time request, cnt = 2
+[07/22/24 04:33:57:420][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:33:57:420][377304][I]:[VosNtp0] bad delay = 231, delay threshold = 100, drop it
+[07/22/24 04:33:57:420][377304][I]:[VosNtp0] bad delay = 231, delay threshold = 100, drop it
+[07/22/24 04:33:57:858][377304][A]:(00000098): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:57:858][377304][A]:(00000099):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:57:858][377304][I]:[tactics] rtt:99 lost frame rate:61 continus lost:0 jitter:830
+[07/22/24 04:33:59:188][377304][I]:[VosNtp0] send ntp server time request, cnt = 2
+[07/22/24 04:33:59:400][377304][I]:[VosNtp0] bad delay = 212, delay threshold = 100, drop it
+[07/22/24 04:33:59:400][377304][I]:[VosNtp0] bad delay = 212, delay threshold = 100, drop it
+[07/22/24 04:33:59:858][377304][A]:(00000100): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:59:858][377304][A]:(00000101):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:33:59:858][377304][I]:[tactics] rtt:93 lost frame rate:56 continus lost:0 jitter:651
+[07/22/24 04:34:00:411][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:34:01:067][377304][I]:**CALL STATS: duration 32s cpu app/total 0.38/20.92 battery 255 tx/rx: 227/68 kbps 921.687K/396.840K bytes
+[07/22/24 04:34:01:068][377304][I]:get_default_route ipv6 not exist
+[07/22/24 04:34:01:068][377304][I]:localIp4:100.100.0.6 localIp6:fd0f:1dde:e0a3:0:b84f:89ff:fec9:6008 gw4:100.100.0.251 gw6:
+[07/22/24 04:34:01:188][377304][I]:[VosNtp0] send ntp server time request, cnt = 2
+[07/22/24 04:34:01:400][377304][I]:[VosNtp0] bad delay = 211, delay threshold = 100, drop it
+[07/22/24 04:34:01:400][377304][I]:[VosNtp0] bad delay = 211, delay threshold = 100, drop it
+[07/22/24 04:34:01:858][377304][A]:(00000102): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:01:858][377304][A]:(00000103):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:01:858][377304][I]:[tactics] rtt:87 lost frame rate:26 continus lost:0 jitter:690
+[07/22/24 04:34:03:065][377304][I]:[ATW]: Audio statistics - play count: playout count = 3600 signal level: far_in = 79
+[07/22/24 04:34:03:188][377304][I]:[VosNtp0] send ntp server time request, cnt = 2
+[07/22/24 04:34:03:389][377304][I]:[VosNtp0] bad delay = 201, delay threshold = 100, drop it
+[07/22/24 04:34:03:389][377304][I]:[VosNtp0] bad delay = 201, delay threshold = 100, drop it
+[07/22/24 04:34:03:420][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:34:03:688][377322][I]:(bitrate_allocator.cc:161): Current BWE 1691000
+[07/22/24 04:34:04:058][377304][A]:(00000104): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:04:058][377304][A]:(00000105):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:04:058][377304][I]:[tactics] rtt:83 lost frame rate:60 continus lost:0 jitter:670
+[07/22/24 04:34:05:188][377304][I]:[VosNtp0] send ntp server time request, cnt = 2
+[07/22/24 04:34:05:390][377304][I]:[VosNtp0] bad delay = 202, delay threshold = 100, drop it
+[07/22/24 04:34:05:390][377304][I]:[VosNtp0] bad delay = 202, delay threshold = 100, drop it
+[07/22/24 04:34:06:057][377304][A]:(00000106): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:06:058][377304][A]:(00000107):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:06:058][377304][I]:[tactics] rtt:78 lost frame rate:46 continus lost:0 jitter:530
+[07/22/24 04:34:06:067][377304][I]:[RS]: **report stats: seq: 62, report list size 0, tx/rx: 16654/2976, cache size: 0
+[07/22/24 04:34:06:189][377304][I]:on bill stats upstream width 0 height 0 local flag 3
+[07/22/24 04:34:06:410][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:34:07:097][377321][I]:(audio_device_buffer.cc:609): [PLAY: 10010msec, 16kHz] callbacks: 1001, samples: 160160, rate: 16000, rate diff: 0%, level: 1784
+[07/22/24 04:34:07:097][377321][I]:(audio_device_buffer.cc:633): AStatistics-play, apm cost:83/85/98/94/98/96/101/53/57/68(avg 83, max 178), sys cost:9902/9911/9916/9901/9902/9901/9898/9946/9943/9930(avg 9915, max 12016) 
+[07/22/24 04:34:07:189][377304][I]:[VosNtp0] send ntp server time request, cnt = 2
+[07/22/24 04:34:07:400][377304][I]:[VosNtp0] bad delay = 211, delay threshold = 100, drop it
+[07/22/24 04:34:07:400][377304][I]:[VosNtp0] bad delay = 211, delay threshold = 100, drop it
+[07/22/24 04:34:08:058][377304][A]:(00000108): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:08:058][377304][A]:(00000109):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:08:058][377304][I]:[tactics] rtt:77 lost frame rate:40 continus lost:0 jitter:490
+[07/22/24 04:34:09:068][377304][I]:get_default_route ipv6 not exist
+[07/22/24 04:34:09:068][377304][I]:localIp4:100.100.0.6 localIp6:fd0f:1dde:e0a3:0:b84f:89ff:fec9:6008 gw4:100.100.0.251 gw6:
+[07/22/24 04:34:09:188][377304][I]:[VosNtp0] send ntp server time request, cnt = 2
+[07/22/24 04:34:09:411][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:34:10:058][377304][A]:(00000110): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:10:058][377304][A]:(00000111):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:10:058][377304][A]:(00000112): RemoteAudioTrackImpl::onAudioFrozenStatusChange(this:0x7f6e802efcc0, void)
+[07/22/24 04:34:10:058][377304][I]:[tactics] rtt:74 lost frame rate:0 continus lost:0 jitter:51
+[07/22/24 04:34:10:258][377304][A]:(00000113): AudioStreamManager::PollTrackInfoAndNotify->onUserAudioTrackStateChanged(this:0x7f6e80266480, userId:123, track:0x7f6e802efcc0, state:2, reason:2, elapsed:42993)
+[07/22/24 04:34:10:258][377304][I]:[xla] first remote audio frame uid:123, first:0, valid:1, mute:0, stage:(launch:2, joined:123, recved:155, decoded:42993)
+[07/22/24 04:34:11:189][377304][I]:[VosNtp0] send ntp server time request, cnt = 2
+[07/22/24 04:34:12:257][377304][A]:(00000114): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:12:257][377304][A]:(00000115):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:12:257][377304][I]:[tactics] rtt:72 lost frame rate:1 continus lost:0 jitter:82
+[07/22/24 04:34:12:411][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:34:12:688][377322][I]:(bitrate_allocator.cc:161): Current BWE 1691000
+[07/22/24 04:34:14:258][377304][A]:(00000116): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:14:258][377304][A]:(00000117):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:14:258][377304][I]:[tactics] rtt:72 lost frame rate:0 continus lost:0 jitter:64
+[07/22/24 04:34:15:188][377304][I]:[VosNtp0] send ntp server time request, cnt = 2
+[07/22/24 04:34:15:412][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:34:16:258][377304][A]:(00000118): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:16:258][377304][A]:(00000119):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:16:258][377304][I]:[tactics] rtt:71 lost frame rate:2 continus lost:0 jitter:109
+[07/22/24 04:34:17:068][377304][I]:get_default_route ipv6 not exist
+[07/22/24 04:34:17:068][377304][I]:localIp4:100.100.0.6 localIp6:fd0f:1dde:e0a3:0:b84f:89ff:fec9:6008 gw4:100.100.0.251 gw6:
+[07/22/24 04:34:17:107][377321][I]:(audio_device_buffer.cc:609): [PLAY: 10011msec, 16kHz] callbacks: 1001, samples: 160160, rate: 15998, rate diff: 0%, level: 261
+[07/22/24 04:34:17:107][377321][I]:(audio_device_buffer.cc:633): AStatistics-play, apm cost:103/92/93/92/92/98/96/110/92/98(avg 97, max 218), sys cost:9899/9906/9900/9879/9932/9897/9903/9884/9911/9895(avg 9901, max 12261) 
+[07/22/24 04:34:17:689][377322][I]:(bitrate_allocator.cc:161): Current BWE 1691000
+[07/22/24 04:34:18:189][377304][I]:on bill stats upstream width 0 height 0 local flag 3
+[07/22/24 04:34:18:408][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:34:18:457][377304][A]:(00000120): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:18:457][377304][A]:(00000121):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:18:457][377304][I]:[tactics] rtt:70 lost frame rate:0 continus lost:0 jitter:89
+[07/22/24 04:34:18:500][377304][I]:[remote:199.******.132:8443] current in 8th connect, send client response 0, early data: 0, tags: REXF:
+[07/22/24 04:34:18:757][377304][I]:[remote:199.******.132:8443] Recieve RST
+[07/22/24 04:34:18:757][377304][I]:[remote:199.******.132:8443] Recieve RST
+[07/22/24 04:34:18:758][377304][I]:[remote:199.******.132:8443] Recieve RST
+[07/22/24 04:34:20:458][377304][A]:(00000122): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:20:458][377304][A]:(00000123):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:20:458][377304][I]:[tactics] rtt:68 lost frame rate:0 continus lost:0 jitter:71
+[07/22/24 04:34:20:729][377304][I]:[remote:13.******.235:8443] start 8th connect, send client hello 5613000|syn, early data: 0, tags: SNI :31332d313234...(28), PDMD:, CPTO:4e4f4e432000...(129), CCRT:b5880f7ff03f...(24), CID: 910582358444454789
+[07/22/24 04:34:21:065][377304][I]:[ATW]: Audio statistics - play count: playout count = 5400 signal level: far_in = 72
+[07/22/24 04:34:21:419][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:34:22:658][377304][A]:(00000124): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:22:658][377304][A]:(00000125):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:22:658][377304][I]:[tactics] rtt:67 lost frame rate:0 continus lost:0 jitter:54
+[07/22/24 04:34:23:188][377322][I]:(bitrate_allocator.cc:161): Current BWE 1691000
+[07/22/24 04:34:23:188][377304][I]:[VosNtp0] send ntp server time request, cnt = 2
+[07/22/24 04:34:24:416][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:34:24:858][377304][A]:(00000126): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:24:858][377304][A]:(00000127):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:24:858][377304][I]:[tactics] rtt:66 lost frame rate:0 continus lost:0 jitter:54
+[07/22/24 04:34:25:068][377304][I]:get_default_route ipv6 not exist
+[07/22/24 04:34:25:068][377304][I]:localIp4:100.100.0.6 localIp6:fd0f:1dde:e0a3:0:b84f:89ff:fec9:6008 gw4:100.100.0.251 gw6:
+[07/22/24 04:34:26:858][377304][A]:(00000128): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:26:858][377304][A]:(00000129):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:26:858][377304][I]:[tactics] rtt:67 lost frame rate:2 continus lost:0 jitter:106
+[07/22/24 04:34:27:117][377321][I]:(audio_device_buffer.cc:609): [PLAY: 10010msec, 16kHz] callbacks: 1001, samples: 160160, rate: 16000, rate diff: 0%, level: 242
+[07/22/24 04:34:27:117][377321][I]:(audio_device_buffer.cc:633): AStatistics-play, apm cost:92/86/82/86/83/91/87/99/85/85(avg 88, max 212), sys cost:9777/10132/9905/9919/9904/9889/9921/9896/9921/9906(avg 9917, max 11305) 
+[07/22/24 04:34:27:419][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:34:28:858][377304][A]:(00000130): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:28:858][377304][A]:(00000131):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:28:858][377304][I]:[tactics] rtt:66 lost frame rate:0 continus lost:0 jitter:88
+[07/22/24 04:34:30:188][377304][I]:on bill stats upstream width 0 height 0 local flag 3
+[07/22/24 04:34:30:412][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:34:30:858][377304][A]:(00000132): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:30:858][377304][A]:(00000133):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:30:858][377304][I]:[tactics] rtt:68 lost frame rate:0 continus lost:0 jitter:71
+[07/22/24 04:34:31:189][377322][I]:(bitrate_allocator.cc:161): Current BWE 1691000
+[07/22/24 04:34:32:015][377304][I]:destroy session builder 0x7f6e8027b0e0
+[07/22/24 04:34:32:015][377304][I]:destroy dangling client connection 0x7f6e802f6470
+[07/22/24 04:34:32:067][377304][I]:destroy session builder 0x7f6e802e9ed0
+[07/22/24 04:34:32:067][377304][I]:destroy dangling client connection 0x7f6e803057a0
+[07/22/24 04:34:33:058][377304][A]:(00000134): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:33:058][377304][A]:(00000135):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:33:058][377304][I]:[tactics] rtt:70 lost frame rate:3 continus lost:0 jitter:119
+[07/22/24 04:34:33:067][377304][I]:**CALL STATS: duration 1m3s cpu app/total 0.33/32.33 battery 255 tx/rx: 229/72 kbps 1.786M/683.799K bytes
+[07/22/24 04:34:33:067][377304][I]:get_default_route ipv6 not exist
+[07/22/24 04:34:33:067][377304][I]:localIp4:100.100.0.6 localIp6:fd0f:1dde:e0a3:0:b84f:89ff:fec9:6008 gw4:100.100.0.251 gw6:
+[07/22/24 04:34:33:412][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:34:35:058][377304][A]:(00000136): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:35:058][377304][A]:(00000137):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:35:058][377304][I]:[tactics] rtt:70 lost frame rate:0 continus lost:0 jitter:84
+[07/22/24 04:34:36:416][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:34:37:058][377304][A]:(00000138): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:37:058][377304][A]:(00000139):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:37:058][377304][I]:[tactics] rtt:70 lost frame rate:1 continus lost:0 jitter:100
+[07/22/24 04:34:37:127][377321][I]:(audio_device_buffer.cc:609): [PLAY: 10010msec, 16kHz] callbacks: 1001, samples: 160160, rate: 16000, rate diff: 0%, level: 316
+[07/22/24 04:34:37:127][377321][I]:(audio_device_buffer.cc:633): AStatistics-play, apm cost:91/89/80/86/84/86/87/86/85/86(avg 86, max 145), sys cost:9901/9904/9915/9904/9908/9912/10002/9906/9907/9917(avg 9918, max 12091) 
+[07/22/24 04:34:39:058][377304][A]:(00000140): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:39:058][377304][A]:(00000141):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:39:058][377304][I]:[tactics] rtt:70 lost frame rate:0 continus lost:0 jitter:100
+[07/22/24 04:34:39:065][377304][I]:[ATW]: Audio statistics - play count: playout count = 7200 signal level: far_in = 73
+[07/22/24 04:34:39:068][377304][I]:get_default_route ipv6 not exist
+[07/22/24 04:34:39:068][377304][I]:localIp4:100.100.0.6 localIp6:fd0f:1dde:e0a3:0:b84f:89ff:fec9:6008 gw4:100.100.0.251 gw6:
+[07/22/24 04:34:39:188][377304][I]:[VosNtp0] send ntp server time request, cnt = 2
+[07/22/24 04:34:39:416][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:34:40:688][377322][I]:(bitrate_allocator.cc:161): Current BWE 1691000
+[07/22/24 04:34:41:058][377304][A]:(00000142): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:41:058][377304][A]:(00000143):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:41:058][377304][I]:[tactics] rtt:70 lost frame rate:0 continus lost:0 jitter:65
+[07/22/24 04:34:42:066][377304][I]:[RS]: **report stats: seq: 92, report list size 0, tx/rx: 27994/4416, cache size: 0
+[07/22/24 04:34:42:188][377304][I]:on bill stats upstream width 0 height 0 local flag 3
+[07/22/24 04:34:42:413][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:34:43:058][377304][A]:(00000144): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:43:058][377304][A]:(00000145):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:43:058][377304][I]:[tactics] rtt:72 lost frame rate:1 continus lost:0 jitter:91
+[07/22/24 04:34:45:058][377304][A]:(00000146): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:45:058][377304][A]:(00000147):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:45:058][377304][I]:[tactics] rtt:71 lost frame rate:0 continus lost:0 jitter:74
+[07/22/24 04:34:45:413][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:34:46:188][377322][I]:(bitrate_allocator.cc:161): Current BWE 1691000
+[07/22/24 04:34:47:058][377304][A]:(00000148): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:47:058][377304][A]:(00000149):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:47:058][377304][I]:[tactics] rtt:73 lost frame rate:2 continus lost:0 jitter:109
+[07/22/24 04:34:47:068][377304][I]:get_default_route ipv6 not exist
+[07/22/24 04:34:47:068][377304][I]:localIp4:100.100.0.6 localIp6:fd0f:1dde:e0a3:0:b84f:89ff:fec9:6008 gw4:100.100.0.251 gw6:
+[07/22/24 04:34:47:129][377321][I]:(audio_device_buffer.cc:609): [PLAY: 10002msec, 16kHz] callbacks: 1000, samples: 160000, rate: 15997, rate diff: 0%, level: 235
+[07/22/24 04:34:47:129][377321][I]:(audio_device_buffer.cc:633): AStatistics-play, apm cost:88/92/81/89/89/91/93/88/92/94(avg 90, max 163), sys cost:10008/9906/9815/9911/10005/9896/9824/10007/9907/9905(avg 9918, max 11416) 
+[07/22/24 04:34:48:412][377304][I]:100: encode webJoinChangeVideoCodec
+[07/22/24 04:34:49:058][377304][A]:(00000150): RemoteAudioTrackImpl::getAudioFilter(this:0x7f6e802efcc0, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:49:058][377304][A]:(00000151):   IAudioFilterComposite::getAudioFilter(this:0x7f6e803bc860, name: sound_position_io_agora_builtin_remote_user_playback)
+[07/22/24 04:34:49:058][377304][I]:[tactics] rtt:74 lost frame rate:0 continus lost:0 jitter:109
