@@ -21,6 +21,11 @@ go run .
 ```
 
 ## 一个 case
-场外录音，见 `case/1.m4a`，在第 8 秒左右，可以听到咔的一声。
+<audio src="case/1.wav" control />
+
+场外录音，见 `case/1.wav`，在第 8 秒左右，可以听到咔的一声。
+
 声网日志，见 `case/1agora.log`，没发现 no enough 的日志。
+
 发送的音频就是 `audio.wav`
+
