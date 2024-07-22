@@ -48,7 +48,7 @@ func loadRecvData() RecvData {
 func SimlateRecvTTSData() (ttsChan chan TtsFrame) {
 	ttsChan = make(chan TtsFrame, 10)
 	go func() {
-		// 每 300ms 收到一个 400ms 的音频帧
+		// 完全模拟接收到的数据到达时间
 		pcmData := LoadPcmData()
 		recvData := loadRecvData()
 		for {
