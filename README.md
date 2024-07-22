@@ -5,7 +5,9 @@
 
 可以确定，业务方的tts合成速度是一定跟得上的。
 
-在这个构建的 case 中，模拟服务端合成 tts 的规则完全模拟了服务端的到达时许，具体的时许看 `split.log` 和 `split.json`，模拟逻辑见 `sim_recv_pcm.go`。
+在这个构建的 case 中，模拟服务端合成 tts 的规则完全模拟了服务端的到达时序，具体的时序看 `split.log` 和 `split.json`，模拟逻辑见 `sim_recv_pcm.go`。
+
+用于发送的音频时 `audio.wav`
 
 
 ## 复现问题
@@ -17,6 +19,7 @@
 > token(临时的): 007eJxTYGj8oVy14qKdpFSiX01P+/mCV0e/drQ+kjZ2/vr111XPlA8KDGkGpsYGxqlpyYmGFiYWSUYWpoZJaSlmBpYpZinmaSkm++/MTWsIZGQ423aXkZEBAkF8FgZDQ0MDBgYAIAoiaw==
 
 运行项目后，在 webdemo 接收来自 110 的音频，可以听到结巴的现象。
+
 ```shell
 go run .
 ```
